@@ -1,5 +1,5 @@
 {
-    "version": "20220520.1641",
+    "version": "20220609.2154",
     "parent_en_array": [
         "Age",
         "Body",
@@ -60,7 +60,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 859,
+    "count": 860,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -4357,6 +4357,14 @@
             "sub_en": "nose hook",
             "sub_zh": "鼻吊钩",
             "sub_desc": "用钩子把鼻孔向上拉，打开鼻孔。 经常与束缚(bondage)配对。"
+        },
+        "Costume:nudism": {
+            "search_key": "Costume,戏服,nudism,裸体主义",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "nudism",
+            "sub_zh": "裸体主义",
+            "sub_desc": "两个或多个角色的生殖器完全暴露在彼此面前，同时没有进行性活动。不要与露阴癖(exhibitionism)相混淆。"
         },
         "Costume:nun": {
             "search_key": "Costume,戏服,nun,修女服",
