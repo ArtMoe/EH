@@ -1,5 +1,5 @@
 {
-    "version": "20220730.1849",
+    "version": "20230503.0911",
     "parent_en_array": [
         "Age",
         "Body",
@@ -60,7 +60,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 864,
+    "count": 877,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -1790,6 +1790,14 @@
             "sub_zh": "全身纹身",
             "sub_desc": "皮肤上的永久标记/图案，通常用墨水完成。必须足够突出以覆盖至少一半肢体或脸部。也可由许多小型纹身累积以满足条件。不应与淫纹(crotch tattoo)混淆。"
         },
+        "Skin:lipstick mark": {
+            "search_key": "Skin,皮肤,lipstick mark,口红印",
+            "parent_en": "Skin",
+            "parent_zh": "皮肤",
+            "sub_en": "lipstick mark",
+            "sub_zh": "口红印",
+            "sub_desc": "除面部或颈部外，参与者身上任何地方留下的口红印记（例如来自亲吻、吸吮等）。不适用于性玩具或其他物体上留下的口红痕迹。当口红直接涂在身上时（例如身体写作(body writing)）不应使用此标签。"
+        },
         "Skin:oil": {
             "search_key": "Skin,皮肤,oil,油",
             "parent_en": "Skin",
@@ -2630,6 +2638,14 @@
             "sub_zh": "腋交",
             "sub_desc": "使用腋下部位刺激阴茎。"
         },
+        "Arms:detached sleeves": {
+            "search_key": "Arms,腋窝,detached sleeves,分离袖子",
+            "parent_en": "Arms",
+            "parent_zh": "腋窝",
+            "sub_en": "detached sleeves",
+            "sub_zh": "分离袖子",
+            "sub_desc": "一种上衣没有肩部分，袖子与衣服主体分离同时不以手套样式穿着的服饰。不应与手套(gloves)混淆。"
+        },
         "Arms:hairy armpits": {
             "search_key": "Arms,腋窝,hairy armpits,腋毛",
             "parent_en": "Arms",
@@ -2870,6 +2886,14 @@
             "sub_zh": "乳穴性交",
             "sub_desc": "将阴茎/玩具通过乳头插入乳房。不应与乳交(paizuri)混淆。"
         },
+        "Nipples:nipple piercing": {
+            "search_key": "Nipples,乳头,nipple piercing,乳头穿孔",
+            "parent_en": "Nipples",
+            "parent_zh": "乳头",
+            "sub_en": "nipple piercing",
+            "sub_zh": "乳头穿孔",
+            "sub_desc": "位于乳头或乳晕上的穿孔。需要穿孔(piercing)，不应与夹具(clamp)混淆。"
+        },
         "Nipples:nipple stimulation": {
             "search_key": "Nipples,乳头,nipple stimulation,乳头刺激",
             "parent_en": "Nipples",
@@ -2965,6 +2989,14 @@
             "sub_en": "fundoshi",
             "sub_zh": "六尺褌",
             "sub_desc": "相扑手穿的丁字裤。"
+        },
+        "Crotch:genital piercing": {
+            "search_key": "Crotch,裆部,genital piercing,性器穿孔",
+            "parent_en": "Crotch",
+            "parent_zh": "裆部",
+            "sub_en": "genital piercing",
+            "sub_zh": "性器穿孔",
+            "sub_desc": "位于生殖器、会阴或肛门的穿孔。需要穿孔(piercing)，不应与锁精环(cock ring)混淆。"
         },
         "Crotch:gymshorts": {
             "search_key": "Crotch,裆部,gymshorts,运动短裤",
@@ -3093,6 +3125,14 @@
             "sub_en": "cbt",
             "sub_zh": "虐屌",
             "sub_desc": "CBT, Cock and Ball Torture. 以任何方式折磨阴茎区域。不需要拷打(torture)标签"
+        },
+        "Penile:cloaca insertion": {
+            "search_key": "Penile,阴茎,cloaca insertion,泄殖腔插入",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "cloaca insertion",
+            "sub_zh": "泄殖腔插入",
+            "sub_desc": "将任何东西插入泄殖腔。可能援引可伸缩阴茎(retractable penis)标签。不用于插入阴道。"
         },
         "Penile:cockphagia": {
             "search_key": "Penile,阴茎,cockphagia,阴茎吞食",
@@ -3278,14 +3318,6 @@
             "sub_zh": "大阴道",
             "sub_desc": "异常大的阴道，有时只是阴唇。不应与大阴蒂(big clit)混淆。"
         },
-        "Vaginal:birth": {
-            "search_key": "Vaginal,阴道,birth,出产",
-            "parent_en": "Vaginal",
-            "parent_zh": "阴道",
-            "sub_en": "birth",
-            "sub_zh": "出产",
-            "sub_desc": "生物诞生的过程，在此之前一般会怀孕(pregnant)。"
-        },
         "Vaginal:cervix penetration": {
             "search_key": "Vaginal,阴道,cervix penetration,宫颈穿透",
             "parent_en": "Vaginal",
@@ -3405,6 +3437,14 @@
             "sub_en": "unbirth",
             "sub_zh": "入阴",
             "sub_desc": "被阴道，肛门或尿道吞噬的人或生物。 本质上与出产(birth)相反，因此不需要出产(birth)或怀孕(pregnant)标签。"
+        },
+        "Vaginal:vaginal birth": {
+            "search_key": "Vaginal,阴道,vaginal birth,阴道出产",
+            "parent_en": "Vaginal",
+            "parent_zh": "阴道",
+            "sub_en": "vaginal birth",
+            "sub_zh": "阴道出产",
+            "sub_desc": "通过阴道分娩的过程，在此之前一般会怀孕(pregnant)。单张图片即可应用此标签，除非它在一组随机的图片中。不应用于产卵(eggs)。"
         },
         "Vaginal:vaginal sticker": {
             "search_key": "Vaginal,阴道,vaginal sticker,阴贴",
@@ -3733,6 +3773,14 @@
             "sub_en": "footjob",
             "sub_zh": "足交",
             "sub_desc": "用脚对另一个人进行性刺激。不要与腿交(legjob)混淆。"
+        },
+        "Feet:high heels": {
+            "search_key": "Feet,脚,high heels,高跟鞋",
+            "parent_en": "Feet",
+            "parent_zh": "脚",
+            "sub_en": "high heels",
+            "sub_zh": "高跟鞋",
+            "sub_desc": "通常是细高跟鞋，将穿着者的脚后跟抬高到脚掌顶部以上。仅适用于高跟鞋，不适用于标准鞋跟，例如普通学校鞋。需要异性装(crossdressing)标签。"
         },
         "Feet:multiple footjob": {
             "search_key": "Feet,脚,multiple footjob,多重足交",
@@ -4134,6 +4182,14 @@
             "sub_zh": "防毒面具",
             "sub_desc": "覆盖脸部的塑料面罩，包括呼吸管或过滤器。"
         },
+        "Costume:genital piercing": {
+            "search_key": "Costume,戏服,genital piercing,性器穿孔",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "genital piercing",
+            "sub_zh": "性器穿孔",
+            "sub_desc": "位于生殖器、会阴或肛门的穿孔。需要穿孔(piercing)，不应与锁精环(cock ring)混淆。"
+        },
         "Costume:glasses": {
             "search_key": "Costume,戏服,glasses,眼镜👓",
             "parent_en": "Costume",
@@ -4181,6 +4237,14 @@
             "sub_en": "headphones",
             "sub_zh": "头戴式耳机",
             "sub_desc": "头上戴耳机或者脖子上挂耳机的人。耳壳必须足够大，可以盖住耳朵。"
+        },
+        "Costume:high heels": {
+            "search_key": "Costume,戏服,high heels,高跟鞋",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "high heels",
+            "sub_zh": "高跟鞋",
+            "sub_desc": "通常是细高跟鞋，将穿着者的脚后跟抬高到脚掌顶部以上。仅适用于高跟鞋，不适用于标准鞋跟，例如普通学校鞋。需要异性装(crossdressing)标签。"
         },
         "Costume:hijab": {
             "search_key": "Costume,戏服,hijab,头巾",
@@ -4382,6 +4446,14 @@
             "sub_zh": "忍者装",
             "sub_desc": "男性忍者服装。通常是暗色服装和部分轻甲。不应与女忍装(kunoichi)混淆。"
         },
+        "Costume:nipple piercing": {
+            "search_key": "Costume,戏服,nipple piercing,乳头穿孔",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "nipple piercing",
+            "sub_zh": "乳头穿孔",
+            "sub_desc": "位于乳头或乳晕上的穿孔。需要穿孔(piercing)，不应与夹具(clamp)混淆。"
+        },
         "Costume:nose hook": {
             "search_key": "Costume,戏服,nose hook,鼻吊钩",
             "parent_en": "Costume",
@@ -4413,6 +4485,14 @@
             "sub_en": "nurse",
             "sub_zh": "护士装",
             "sub_desc": "穿着普通的白色/粉红色的衣服，通常有一个帽子。"
+        },
+        "Costume:painted nails": {
+            "search_key": "Costume,戏服,painted nails,美甲",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "painted nails",
+            "sub_zh": "美甲",
+            "sub_desc": "手指甲或脚趾甲上的彩色油漆。也可用于彩色假指甲。应该只标记在人类参与者身上。"
         },
         "Costume:pantyhose": {
             "search_key": "Costume,戏服,pantyhose,连裤袜",
@@ -5542,6 +5622,14 @@
             "sub_zh": "束缚",
             "sub_desc": "捆绑或束缚的行为和艺术。是枷具(pillory)、捆绑(shibari)、卡在墙上(stuck in wall)和木马(wooden horse)的前置标签。不需要为口塞(gag)或勾腿(leg lock)添加此标签。"
         },
+        "Bondage:fanny packing": {
+            "search_key": "Bondage,束缚,fanny packing,人肉腰包",
+            "parent_en": "Bondage",
+            "parent_zh": "束缚",
+            "sub_en": "fanny packing",
+            "sub_zh": "人肉腰包",
+            "sub_desc": "一个人被捆绑、束缚或以其他方式绑在更大的伴侣身上以供性使用。需要束缚(bondage)标签。"
+        },
         "Bondage:gag": {
             "search_key": "Bondage,束缚,gag,口塞",
             "parent_en": "Bondage",
@@ -6086,6 +6174,22 @@
             "sub_zh": "扶扶男3P",
             "sub_desc": "⚥♂⚥，2 扶 1 男 3P。需要乱交(group)标签。不算男同(yaoi)。"
         },
+        "Inter-gender Relations:yaoi": {
+            "search_key": "Inter-gender Relations,跨性别关系,yaoi,男同",
+            "parent_en": "Inter-gender Relations",
+            "parent_zh": "跨性别关系",
+            "sub_en": "yaoi",
+            "sub_zh": "男同",
+            "sub_desc": "やおい，至少两个男性之间的性行为。"
+        },
+        "Inter-gender Relations:yuri": {
+            "search_key": "Inter-gender Relations,跨性别关系,yuri,百合",
+            "parent_en": "Inter-gender Relations",
+            "parent_zh": "跨性别关系",
+            "sub_en": "yuri",
+            "sub_zh": "百合",
+            "sub_desc": "至少两个女性之间的性行为。不用于扶她(futanari)/人妖♂(shemale)和女性间的性行为或非色情内容。如果有一幕场景揭示一个角色是扶她，以前的仍然可以算作百合。不用于混合性别乱交(group)。\n同义词：女同性恋(dyke)、女上女(girl on girl)和蕾丝边(lesbians)"
+        },
         "Contextual:blackmail": {
             "search_key": "Contextual,上下文,blackmail,勒索",
             "parent_en": "Contextual",
@@ -6213,22 +6317,6 @@
             "sub_en": "yandere",
             "sub_zh": "病娇",
             "sub_desc": "动机来自于强迫的爱的精神病的行为。包括骚扰或劫持感兴趣的人；恐吓或伤害感知到的对手。如果有任何性活动，此人必须直接参与其中。"
-        },
-        "Contextual:yaoi": {
-            "search_key": "Contextual,上下文,yaoi,男同",
-            "parent_en": "Contextual",
-            "parent_zh": "上下文",
-            "sub_en": "yaoi",
-            "sub_zh": "男同",
-            "sub_desc": "やおい，至少两个男性之间的性行为。"
-        },
-        "Contextual:yuri": {
-            "search_key": "Contextual,上下文,yuri,百合",
-            "parent_en": "Contextual",
-            "parent_zh": "上下文",
-            "sub_en": "yuri",
-            "sub_zh": "百合",
-            "sub_desc": "至少两个女性之间的性行为。不用于扶她(futanari)/人妖♂(shemale)和女性间的性行为或非色情内容。如果有一幕场景揭示一个角色是扶她，以前的仍然可以算作百合。不用于混合性别乱交(group)。\n同义词：女同性恋(dyke)、女上女(girl on girl)和蕾丝边(lesbians)"
         },
         "Gallery-Wide:dickgirls only": {
             "search_key": "Gallery-Wide,画廊范围,dickgirls only,纯扶她",
@@ -6534,6 +6622,14 @@
             "sub_zh": "3D图片集",
             "sub_desc": "不构成漫画或 CG 集的 3D 内容（即松散的图像、屏幕截图等）。这些图片最好有一个单一的主题（例如，单一的艺术家，系列，角色，或恋物癖）。\n只适用于杂项(misc)分类。需要3D(3d)标签。"
         },
+        "Technical:ai generated": {
+            "search_key": "Technical,技术,ai generated,AI生成",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "ai generated",
+            "sub_zh": "AI生成",
+            "sub_desc": "标题中包含“[AI生成]”指示的图库。无法直接投票，当指示包含在标题中或重命名为包含在标题中时自动应用。当重命名图库以删除指示时，标签会自动删除。重命名必须遵循 [EHWiki](https://ehwiki.org/wiki/ai_generated) 的要求和格式。"
+        },
         "Technical:anaglyph": {
             "search_key": "Technical,技术,anaglyph,红蓝3D",
             "parent_en": "Technical",
@@ -6565,6 +6661,14 @@
             "sub_en": "comic",
             "sub_zh": "西方漫画",
             "sub_desc": "一种西方色情作品，利用一系列格子来说明故事。通常包含文本气球。仅用于西方(western)作品，非色情内容不算。"
+        },
+        "Technical:extraneous ads": {
+            "search_key": "Technical,技术,extraneous ads,外部广告",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "extraneous ads",
+            "sub_zh": "外部广告",
+            "sub_desc": "未出现在原始作品中的一张或多张第三方广告/横幅。不应与水印(watermarked)或扫描水印(scanmark)混淆。与作品的上传/扫描/上色/去码相关的广告（捐赠链接、网站或委托链接）不符合条件。不适用于原始作品中本就包含的广告。"
         },
         "Technical:figure": {
             "search_key": "Technical,技术,figure,手办",
