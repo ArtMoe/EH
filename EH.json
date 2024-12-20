@@ -1,5 +1,5 @@
 {
-    "version": "20220609.2154",
+    "version": "20220730.1849",
     "parent_en_array": [
         "Age",
         "Body",
@@ -60,7 +60,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 860,
+    "count": 864,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -797,6 +797,22 @@
             "sub_en": "human on furry",
             "sub_zh": "人毛",
             "sub_desc": "人与毛茸茸(furry)角色间的性行为。"
+        },
+        "Creature:hyena boy": {
+            "search_key": "Creature,生物,hyena boy,鬣狗男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "hyena boy",
+            "sub_zh": "鬣狗男孩",
+            "sub_desc": "鬣狗女孩的男性版本。"
+        },
+        "Creature:hyena girl": {
+            "search_key": "Creature,生物,hyena girl,鬣狗女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "hyena girl",
+            "sub_zh": "鬣狗女孩",
+            "sub_desc": "鬣狗男孩的女性版本。"
         },
         "Creature:insect boy": {
             "search_key": "Creature,生物,insect boy,昆虫男孩",
@@ -4181,6 +4197,22 @@
             "sub_en": "hotpants",
             "sub_zh": "热裤",
             "sub_desc": "短的，突出臀部和腿部。不应与自行车短裤(bike shorts)、布鲁马(bloomers)或运动短裤(gymshorts)混淆。"
+        },
+        "Costume:hyena boy": {
+            "search_key": "Creature,戏服,hyena boy,鬣狗男孩",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "hyena boy",
+            "sub_zh": "鬣狗男孩",
+            "sub_desc": "鬣狗女孩的男性版本。"
+        },
+        "Costume:hyena girl": {
+            "search_key": "Creature,戏服,hyena girl,鬣狗女孩",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "hyena girl",
+            "sub_zh": "鬣狗女孩",
+            "sub_desc": "鬣狗男孩的女性版本。"
         },
         "Costume:kemonomimi": {
             "search_key": "Costume,戏服,kemonomimi,兽耳",
