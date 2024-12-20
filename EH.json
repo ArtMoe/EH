@@ -1116,7 +1116,7 @@
             "parent_zh": "生物",
             "sub_en": "snail girl",
             "sub_zh": "蜗牛女孩",
-            "sub_desc": ""
+            "sub_desc": null
         },
         "Creature:snake boy": {
             "search_key": "Creature,生物,snake boy,蛇男",
