@@ -1,5 +1,5 @@
 {
-    "version": "20230503.0911",
+    "version": "20230926.2300",
     "parent_en_array": [
         "Age",
         "Body",
@@ -60,7 +60,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 877,
+    "count": 891,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -686,6 +686,22 @@
             "sub_zh": "德莱尼",
             "sub_desc": "魔兽世界(world of warcraft)的恶魔人形生物。有蓝色的皮肤与蹄和发光的眼睛。"
         },
+        "Creature:elephant boy": {
+            "search_key": "Creature,生物,elephant boy,象男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "elephant boy",
+            "sub_zh": "象男孩",
+            "sub_desc": "象女孩(elephant girl)的男性版本。"
+        },
+        "Creature:elephant girl": {
+            "search_key": "Creature,生物,elephant girl,象女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "elephant girl",
+            "sub_zh": "象女孩",
+            "sub_desc": "具有象鼻或象耳的雌性，可能还有其他大象或猛犸象的特征，例如象牙。男性版本见象男孩(elephant boy)。"
+        },
         "Creature:fairy": {
             "search_key": "Creature,生物,fairy,仙子🧚‍♂️",
             "parent_en": "Creature",
@@ -804,7 +820,7 @@
             "parent_zh": "生物",
             "sub_en": "hyena boy",
             "sub_zh": "鬣狗男孩",
-            "sub_desc": "鬣狗女孩的男性版本。"
+            "sub_desc": "具有鬣狗特征的女性类人生物，例如大圆/尖耳朵和半厚毛尾巴。通常被描绘为具有条状或点状的皮毛或更深色的四肢。不应与鬣狗女孩(dog girl)混淆。"
         },
         "Creature:hyena girl": {
             "search_key": "Creature,生物,hyena girl,鬣狗女孩",
@@ -812,7 +828,7 @@
             "parent_zh": "生物",
             "sub_en": "hyena girl",
             "sub_zh": "鬣狗女孩",
-            "sub_desc": "鬣狗男孩的女性版本。"
+            "sub_desc": "鬣狗男孩(hyena boy)的女性版本。"
         },
         "Creature:insect boy": {
             "search_key": "Creature,生物,insect boy,昆虫男孩",
@@ -829,6 +845,22 @@
             "sub_en": "insect girl",
             "sub_zh": "昆虫女孩",
             "sub_desc": "有触角，往往有一个壳或甲壳躯干。"
+        },
+        "Creature:kangaroo boy": {
+            "search_key": "Creature,生物,kangaroo boy,袋鼠男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "kangaroo boy",
+            "sub_zh": "袋鼠男孩",
+            "sub_desc": "袋鼠男孩(kangaroo girl)的男性版本。"
+        },
+        "Creature:kangaroo girl‎": {
+            "search_key": "Creature,生物,kangaroo girl‎,袋鼠女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "kangaroo girl‎",
+            "sub_zh": "袋鼠女孩",
+            "sub_desc": "一个女性角色，具有长长的耳朵、粗壮而长的尾巴，以及可能还有其他袋鼠的特征。"
         },
         "Creature:kappa": {
             "search_key": "Creature,生物,kappa,河童",
@@ -1966,6 +1998,14 @@
             "sub_zh": "防毒面具",
             "sub_desc": "覆盖脸部的塑料面罩，包括呼吸管或过滤器。"
         },
+        "Head:halo": {
+            "search_key": "Head,头,halo,光环",
+            "parent_en": "Head",
+            "parent_zh": "头",
+            "sub_en": "halo",
+            "sub_zh": "光环",
+            "sub_desc": "漂浮在人头顶上方的圆圈或圆盘，通常由光组成。有棱角的平面或圆环也符合条件。附着在人身上的光环也符合条件，但必须与头部保持一定的距离。不适用于并非受古典宗教光环启发的漂浮装饰。"
+        },
         "Head:headless": {
             "search_key": "Head,头,headless,无头",
             "parent_en": "Head",
@@ -2942,6 +2982,14 @@
             "sub_zh": "腹部变形",
             "sub_desc": "固体从腹内向外推压，并出现一个可见突起。通常由大玩具(large insertions)或者大根(big penis)引起。"
         },
+        "Crotch:ball-less shemale": {
+            "search_key": "Crotch,裆部,ball-less shemale,无蛋人妖",
+            "parent_en": "Crotch",
+            "parent_zh": "裆部",
+            "sub_en": "ball-less shemale",
+            "sub_zh": "无蛋人妖",
+            "sub_desc": "一名有阴茎的女性，目视确认没有阴道和睾丸。需要人妖♂(shemale)标签。不应与扶她(futanari)混淆。"
+        },
         "Crotch:bike shorts": {
             "search_key": "Crotch,裆部,bike shorts,自行车短裤",
             "parent_en": "Crotch",
@@ -2981,6 +3029,14 @@
             "sub_en": "diaper",
             "sub_zh": "尿布",
             "sub_desc": "一种用来承接大小便的内衣，往往被婴儿穿戴。经常与返老还童(age regression)、排便💩(scat)、幼稚型(infantilism)或排尿(urination)配对。"
+        },
+        "Crotch:full-packaged futanari": {
+            "search_key": "Crotch,裆部,full-packaged futanari,有蛋扶她",
+            "parent_en": "Crotch",
+            "parent_zh": "裆部",
+            "sub_en": "full-packaged futanari",
+            "sub_zh": "有蛋扶她",
+            "sub_desc": "具有阴茎的女性，并伴有可见的阴道和睾丸。需要扶她(futanari)标签。不应与人妖♂(shemale)混淆。"
         },
         "Crotch:fundoshi": {
             "search_key": "Crotch,裆部,fundoshi,六尺褌",
@@ -3038,6 +3094,14 @@
             "sub_zh": "连续高潮",
             "sub_desc": "参与者在一场中连续达到三次以上的性高潮。"
         },
+        "Crotch:no balls": {
+            "search_key": "Crotch,裆部,no balls,无蛋",
+            "parent_en": "Crotch",
+            "parent_zh": "裆部",
+            "sub_en": "no balls",
+            "sub_zh": "无蛋",
+            "sub_desc": "有阴茎但没有睾丸的男性。不用于只是隐藏睾丸的男性。必须是显而易见的缺少睾丸。不适用于远离生殖器区域的阴茎。触手(tentacles)或阴茎形状的性玩具(sex toys)也不符合。"
+        },
         "Crotch:pantyjob": {
             "search_key": "Crotch,裆部,pantyjob,内裤交",
             "parent_en": "Crotch",
@@ -3077,6 +3141,14 @@
             "sub_en": "adventitious penis",
             "sub_zh": "畸位阴茎",
             "sub_desc": "在身体的意想不到的地方至少有一个阴茎（例如手、嘴或尾巴）。触手(tentacles)和阴茎乳头(dicknipples)不算。"
+        },
+        "Penile:ball caressing": {
+            "search_key": "Penile,阴茎,ball caressing,揉蛋",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "ball caressing",
+            "sub_zh": "揉蛋",
+            "sub_desc": "轻轻触摸或按摩睾丸。不要与虐屌(cbt)混淆。"
         },
         "Penile:balls expansion": {
             "search_key": "Penile,阴茎,balls expansion,睾丸生长",
@@ -3805,6 +3877,14 @@
             "sub_en": "stirrup legwear",
             "sub_zh": "马镫裤",
             "sub_desc": "踩脚裤，覆盖脚踝但不完全覆盖脚底的腿部衣服。需要长筒袜(stockings)或连裤袜(pantyhose)标签。"
+        },
+        "Feet:tabi socks": {
+            "search_key": "Feet,脚,tabi socks,足袋",
+            "parent_en": "Feet",
+            "parent_zh": "脚",
+            "sub_en": "tabi socks",
+            "sub_zh": "足袋",
+            "sub_desc": "足袋是在大脚趾分开以方便穿人字带木屐的日式短布袜，通常使用没有弹性的棉布制成，长度高到脚踝位置，颜色通常为白色或黑色。"
         },
         "Feet:thigh high boots": {
             "search_key": "Feet,脚,thigh high boots,高筒靴",
@@ -4694,6 +4774,14 @@
             "sub_zh": "泳装",
             "sub_desc": "参加游泳时穿的特殊衣服。是比基尼👙(bikini)的前置标签。不应与紧身衣(leotard)或死库水(school swimsuit)混淆。"
         },
+        "Costume:tabi socks": {
+            "search_key": "Costume,戏服,tabi socks,足袋",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "tabi socks",
+            "sub_zh": "足袋",
+            "sub_desc": "足袋是在大脚趾分开以方便穿人字带木屐的日式短布袜，通常使用没有弹性的棉布制成，长度高到脚踝位置，颜色通常为白色或黑色。"
+        },
         "Costume:thigh high boots": {
             "search_key": "Costume,戏服,thigh high boots,高筒靴",
             "parent_en": "Costume",
@@ -4829,6 +4917,14 @@
             "sub_en": "fft threesome",
             "sub_zh": "女扶女3P",
             "sub_desc": "♀⚥♀，2 女 1 扶 3P。需要乱交(group)标签。不算百合(yuri)。"
+        },
+        "Multiple Activities:gang rape": {
+            "search_key": "Multiple Activities,多人运动,gang rape,轮奸",
+            "parent_en": "Multiple Activities",
+            "parent_zh": "多人运动",
+            "sub_en": "gang rape",
+            "sub_zh": "轮奸",
+            "sub_desc": "1 人同时被至少 3 人强奸。需要乱交(group)和强奸(rape)标签。对于双方同意的性行为，使用后宫(harem)标签。"
         },
         "Multiple Activities:group": {
             "search_key": "Multiple Activities,多人运动,group,团队",
@@ -6222,6 +6318,14 @@
             "sub_zh": "受孕",
             "sub_desc": "怀孕(pregnant)的过程。"
         },
+        "Contextual:mesugaki": {
+            "search_key": "Contextual,上下文,mesugaki,小鬼",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "mesugaki",
+            "sub_zh": "小鬼",
+            "sub_desc": "メスガキ，表现出傲慢、专横和诱惑的孩子，通常对地位较高的人，无论是年龄还是地位。通常，角色会嘲笑/侮辱/贬低其他角色的反应。需要萝莉(lolicon)或正太(shotacon)标签。"
+        },
         "Contextual:oyakodon": {
             "search_key": "Contextual,上下文,oyakodon,父子丼",
             "parent_en": "Contextual",
@@ -6413,6 +6517,14 @@
             "sub_en": "netorare",
             "sub_zh": "NTR",
             "sub_desc": "另一个人的配偶/伴侣不忠并且被戴绿帽子的意识到的情况。或这个故事显然是为了引发被戴绿帽子的人的嫉妒或同感时也可以接受。不应与出轨(cheating)混淆。（性主角这方是被动的）"
+        },
+        "Infidelity:netorase": {
+            "search_key": "Infidelity,不忠,netorase,绿帽癖",
+            "parent_en": "Infidelity",
+            "parent_zh": "不忠",
+            "sub_en": "netorase",
+            "sub_zh": "绿帽癖",
+            "sub_desc": "A和B之间存在友好/熟悉或相互关系，B与第三者C发生性关系。A对此知情并同意，甚至可能积极怂恿。相互的关系并不需要相恋。例如儿时的朋友、私人朋友、同学或同事。需要展示A和B之间关系的故事元素，他们要么处于恋爱关系，要么有性关系，或者A对B有兴趣。B被A送出必须是故事中显著的一部分。如果A和B处于恋爱关系，并且B没有受到胁迫或强奸，则换夫(swinging)也适用。"
         },
         "Infidelity:swinging": {
             "search_key": "Infidelity,不忠,swinging,换妻",
