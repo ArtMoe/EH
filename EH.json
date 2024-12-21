@@ -1,5 +1,5 @@
 {
-    "version": "20230926.2300",
+    "version": "20241220.1806",
     "parent_en_array": [
         "Age",
         "Body",
@@ -60,7 +60,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 891,
+    "count": 917,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -93,6 +93,14 @@
             "sub_en": "infantilism",
             "sub_zh": "幼稚型",
             "sub_desc": "将成年人当作小孩对待。"
+        },
+        "Age:kodomo doushi": {
+            "search_key": "Age,年龄,kodomo doushi,两小无猜",
+            "parent_en": "Age",
+            "parent_zh": "年龄",
+            "sub_en": "kodomo doushi",
+            "sub_zh": "两小无猜",
+            "sub_desc": "儿童间的性行为，所有参与者都为儿童。需要萝莉(lolicon)标签。"
         },
         "Age:lolicon": {
             "search_key": "Age,年龄,lolicon,萝莉",
@@ -398,14 +406,6 @@
             "sub_zh": "堕落",
             "sub_desc": "用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁。 有可能导致变身(transformation)、怪物(monster)和恶魔(demon)。"
         },
-        "Change:dick growth": {
-            "search_key": "Change,改变,dick growth,阴茎生长",
-            "parent_en": "Change",
-            "parent_zh": "改变",
-            "sub_en": "dick growth",
-            "sub_zh": "阴茎生长",
-            "sub_desc": "阴茎异常生长的过程，可能产生大根(big penis)。不应该与正常的勃起混淆，也不适用性转换(gender change)标签。"
-        },
         "Change:feminization": {
             "search_key": "Change,改变,feminization,女性化",
             "parent_en": "Change",
@@ -429,6 +429,14 @@
             "sub_en": "gender morph",
             "sub_zh": "女体化",
             "sub_desc": "角色的身体通过身体变形改变了原来的性别。如果显示为序列而不是突然变化，则可能会调用变身(transformation)。\n需要性转换(gender change)标签。不应与附身(possession)和换身(body swap)相混淆。女性变为扶她(futanari)不符合条件。"
+        },
+        "Change:futanarization": {
+            "search_key": "Change,改变,futanarization,扶她化",
+            "parent_en": "Change",
+            "parent_zh": "改变",
+            "sub_en": "futanarization",
+            "sub_zh": "扶她化",
+            "sub_desc": "一名女性角色因长出阴茎而变成了扶她。需要扶她(futanari)或人妖♂(shemale)标签。存在延伸到角色作为扶她的持续时间。不应与性转换(gender change)或男体化(gender morph)相混淆。"
         },
         "Change:growth": {
             "search_key": "Change,改变,growth,巨大化",
@@ -461,6 +469,14 @@
             "sub_en": "nipple expansion",
             "sub_zh": "乳头膨胀",
             "sub_desc": "乳头的大小明显增长。可能产生大乳头(big nipples)。"
+        },
+        "Change:penis enlargement": {
+            "search_key": "Change,改变,penis enlargement,阴茎生长",
+            "parent_en": "Change",
+            "parent_zh": "改变",
+            "sub_en": "penis enlargement",
+            "sub_zh": "阴茎生长",
+            "sub_desc": "阴茎异常生长的过程，可能产生大根(big penis)。不应该与正常的勃起混淆，也不适用性转换(gender change)标签。"
         },
         "Change:personality excretion": {
             "search_key": "Change,改变,personality excretion,人格排泄",
@@ -574,6 +590,22 @@
             "sub_zh": "蜂女",
             "sub_desc": "具有蜜蜂特征的女性。"
         },
+        "Creature:bird boy": {
+            "search_key": "Creature,生物,bird boy,鸟男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bird boy",
+            "sub_zh": "鸟男",
+            "sub_desc": "鸟娘(bird girl)的男性版本。"
+        },
+        "Creature:bird girl": {
+            "search_key": "Creature,生物,bird girl,鸟娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bird girl",
+            "sub_zh": "鸟娘",
+            "sub_desc": "鸟与人类的混合体，几乎全身覆盖羽毛；通常有翅膀、喙和其他鸟类特征。需要毛茸茸(furry)标签。不应与鸟人(harpy)混淆。"
+        },
         "Creature:bunny boy": {
             "search_key": "Creature,生物,bunny boy,兔子男孩",
             "parent_en": "Creature",
@@ -613,6 +645,14 @@
             "sub_en": "centaur",
             "sub_zh": "半人马",
             "sub_desc": "一半是人，一半是马。"
+        },
+        "Creature:corpse": {
+            "search_key": "Creature,生物,corpse,尸体",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "corpse",
+            "sub_zh": "尸体",
+            "sub_desc": "一具死尸。尸体本身不需要具有恋物特征（例如裸体）。不应用于僵尸🧟‍♂️(zombie)。奸尸(necrophilia)需要此标签。不需要杀害(snuff)标签，杀害(snuff)标签要求参与者明显被杀害。"
         },
         "Creature:cowgirl": {
             "search_key": "Creature,生物,cowgirl,牛女孩",
@@ -958,6 +998,14 @@
             "sub_zh": "魔物娘",
             "sub_desc": "怪物(monster)的女性版本。"
         },
+        "Creature:moth girl": {
+            "search_key": "Creature,生物,moth girl,蛾娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "moth girl",
+            "sub_zh": "蛾娘",
+            "sub_desc": "一个具有蛾子特征的女性类人，包括羽毛状的触角。常见特征还包括颈部或身体其他部位的毛发，以及深色的巩膜。需要昆虫女孩(insect girl)标签。"
+        },
         "Creature:mouse boy": {
             "search_key": "Creature,生物,mouse boy,鼠男孩",
             "parent_en": "Creature",
@@ -1118,6 +1166,14 @@
             "sub_zh": "羊女孩",
             "sub_desc": "有羊毛和羊角的女性。"
         },
+        "Creature:skeleton": {
+            "search_key": "Creature,生物,skeleton,骷髅",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "skeleton",
+            "sub_zh": "骷髅",
+            "sub_desc": "一种身体由骨骼构成，几乎没有皮肤的生物。也可能包括头部。需要使用怪物(monster)或魔物娘(monster gril)标签。不应用与透视(x-ray)。不应与僵尸🧟‍♂️(zombie)或奸尸(necrophilia)混淆。"
+        },
         "Creature:skunk boy": {
             "search_key": "Creature,生物,skunk boy,臭鼬男",
             "parent_en": "Creature",
@@ -1164,7 +1220,7 @@
             "parent_zh": "生物",
             "sub_en": "snail girl",
             "sub_zh": "蜗牛女孩",
-            "sub_desc": null
+            "sub_desc": "头部有一组或多组触手状触角和蛞蝓状躯干。不应与昆虫女孩(insect girl)混淆。 需要魔物娘(monster girl)标签。"
         },
         "Creature:snake boy": {
             "search_key": "Creature,生物,snake boy,蛇男",
@@ -1758,6 +1814,14 @@
             "sub_zh": "白化",
             "sub_desc": "红眼和颜色极浅的皮肤。"
         },
+        "Skin:bite mark": {
+            "search_key": "Skin,皮肤,bite mark,咬痕",
+            "parent_en": "Skin",
+            "parent_zh": "皮肤",
+            "sub_en": "bite mark",
+            "sub_zh": "咬痕",
+            "sub_desc": "个体被咬后，皮肤上留下的牙齿痕迹。仅适用于咬痕留下的痕迹，咬的行为本身不算作存在性。不适用于用于食用受害者的咬痕，比如食人(cannibalism)。"
+        },
         "Skin:body painting": {
             "search_key": "Skin,皮肤,body painting,身体绘画",
             "parent_en": "Skin",
@@ -2278,6 +2342,14 @@
             "sub_zh": "病娇",
             "sub_desc": "动机来自于强迫的爱的精神病的行为。包括骚扰或劫持感兴趣的人；恐吓或伤害感知到的对手。如果有任何性活动，此人必须直接参与其中。"
         },
+        "Eyes:additional eyes": {
+            "search_key": "Eyes,眼睛,additional eyes,额外的眼睛",
+            "parent_en": "Eyes",
+            "parent_zh": "眼睛",
+            "sub_en": "additional eyes",
+            "sub_zh": "额外的眼睛",
+            "sub_desc": "在类人身体上或附着在其上的任何地方拥有超过两个眼睛。"
+        },
         "Eyes:blind": {
             "search_key": "Eyes,眼睛,blind,失明",
             "parent_en": "Eyes",
@@ -2485,6 +2557,14 @@
             "sub_en": "coprophagia",
             "sub_zh": "食粪",
             "sub_desc": "需要排便💩(scat)标签。"
+        },
+        "Mouth:full tour": {
+            "search_key": "Mouth,嘴巴,full tour,消化道游览",
+            "parent_en": "Mouth",
+            "parent_zh": "嘴巴",
+            "sub_en": "full tour",
+            "sub_zh": "消化道游览",
+            "sub_desc": "一个角色被另一个角色整个吞下，穿过其消化系统，然后从肛门活着出来。只计算出现角色穿过消化系统的页面。可能援引吞食(vore)标签。不应与消化道贯穿(all the way through)混淆。"
         },
         "Mouth:cunnilingus": {
             "search_key": "Mouth,嘴巴,cunnilingus,舔阴",
@@ -2958,6 +3038,14 @@
             "sub_zh": "腹部膨胀",
             "sub_desc": "腹部向外膨胀得像个气球，常由填充气体、触手(tentacles)、产卵(eggs)、液体，或者由吞食(vore)和入阴(unbirth)行为导致。"
         },
+        "Torso:navel birth": {
+            "search_key": "Torso,躯干,navel birth,肚脐出产",
+            "parent_en": "Torso",
+            "parent_zh": "躯干",
+            "sub_en": "navel birth",
+            "sub_zh": "肚脐出产",
+            "sub_desc": "生物通过肚脐分娩。通常发生在`pregnant`之后。图库只需要包含一张这种性质的图片就需要打上此标签。不应用于产卵(eggs)。"
+        },
         "Torso:navel fuck": {
             "search_key": "Torso,躯干,navel fuck,肚脐奸",
             "parent_en": "Torso",
@@ -3238,13 +3326,21 @@
             "sub_zh": "人妖♀",
             "sub_desc": "有阴道而不是阴茎的男性。男性与人妖♀(cuntboy)间的性行为不应添加男同(yaoi)或纯男性⚣(males only)标签。如果男性拥有阴道和阴茎，请使用扶他(otokofutanari)。"
         },
-        "Penile:dick growth": {
-            "search_key": "Penile,阴茎,dick growth,阴茎生长",
+        "Penile:dickgirl on dickgirl": {
+            "search_key": "Penile,阴茎,dickgirl on dickgirl,扶上扶",
             "parent_en": "Penile",
             "parent_zh": "阴茎",
-            "sub_en": "dick growth",
-            "sub_zh": "阴茎生长",
-            "sub_desc": "阴茎异常生长的过程，可能产生大根(big penis)。不应该与正常的勃起混淆，也不适用性转换(gender change)标签。"
+            "sub_en": "dickgirl on dickgirl",
+            "sub_zh": "扶上扶",
+            "sub_desc": "有阴茎的女性间的性行为。需要扶她(futanari)或人妖♂(shemale)标签。"
+        },
+        "Penile:dickgirl on female": {
+            "search_key": "Penile,阴茎,dickgirl on female,扶上女",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "dickgirl on female",
+            "sub_zh": "扶上女",
+            "sub_desc": "一名有阴茎的女性插入一名没有阴茎的女性。需要扶她(futanari)或人妖♂(shemale)标签。如果两名女性都有阴茎，则应使用扶上扶(dickgirl on dickgirl)。"
         },
         "Penile:dickgirl on male": {
             "search_key": "Penile,阴茎,dickgirl on male,扶上男",
@@ -3278,6 +3374,14 @@
             "sub_zh": "扶她",
             "sub_desc": "同时具有男性和女性生殖器的女孩。此标签或人妖♂(shemale)是扶上男(dickgirl on male)、男上扶(male on dickgirl)、扶上扶(dickgirl on dickgirl)的前置标签。那些缺乏阴道但有睾丸的使用人妖♂(shemale)表示。女性和扶她之间的性行为不应该被标记成百合(yuri)或纯女性⚢(females only)。类似阴茎形状的阴蒂变大应该使用大阴蒂(big clit)表示。\n同义词：阴茎女孩(dickgirl)、雌雄同体(hermaphrodite)"
         },
+        "Penile:futanarization": {
+            "search_key": "Penile,阴茎,futanarization,扶她化",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "futanarization",
+            "sub_zh": "扶她化",
+            "sub_desc": "一名女性角色因长出阴茎而变成了扶她。需要扶她(futanari)或人妖♂(shemale)标签。存在延伸到角色作为扶她的持续时间。不应与性转换(gender change)或男体化(gender morph)相混淆。"
+        },
         "Penile:horse cock": {
             "search_key": "Penile,阴茎,horse cock,马根",
             "parent_en": "Penile",
@@ -3294,6 +3398,14 @@
             "sub_zh": "巨根",
             "sub_desc": "巨大的阴茎，长度至少等于其所有者的躯干。需要大根(big penis)标签。"
         },
+        "Penile:male on dickgirl": {
+            "search_key": "Penile,阴茎,male on dickgirl,男上扶",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "male on dickgirl",
+            "sub_zh": "男上扶",
+            "sub_desc": "男性插入有阴茎的女性，无论是阴道、爆肛(anal)还是口交(blowjob)。需要扶她(futanari)或人妖♂(shemale)标签。"
+        },
         "Penile:multiple penises": {
             "search_key": "Penile,阴茎,multiple penises,鸡鸡复鸡鸡",
             "parent_en": "Penile",
@@ -3309,6 +3421,14 @@
             "sub_en": "penis birth",
             "sub_zh": "阴茎出产",
             "sub_desc": "通过阴茎产下生物。不用于产卵(eggs)。"
+        },
+        "Penile:penis enlargement": {
+            "search_key": "Penile,阴茎,penis enlargement,阴茎生长",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "penis enlargement",
+            "sub_zh": "阴茎生长",
+            "sub_desc": "阴茎异常生长的过程，可能产生大根(big penis)。不应该与正常的勃起混淆，也不适用性转换(gender change)标签。"
         },
         "Penile:phimosis": {
             "search_key": "Penile,阴茎,phimosis,包茎",
@@ -4343,7 +4463,7 @@
             "sub_desc": "短的，突出臀部和腿部。不应与自行车短裤(bike shorts)、布鲁马(bloomers)或运动短裤(gymshorts)混淆。"
         },
         "Costume:hyena boy": {
-            "search_key": "Creature,戏服,hyena boy,鬣狗男孩",
+            "search_key": "Costume,戏服,hyena boy,鬣狗男孩",
             "parent_en": "Costume",
             "parent_zh": "戏服",
             "sub_en": "hyena boy",
@@ -4351,7 +4471,7 @@
             "sub_desc": "鬣狗女孩的男性版本。"
         },
         "Costume:hyena girl": {
-            "search_key": "Creature,戏服,hyena girl,鬣狗女孩",
+            "search_key": "Costume,戏服,hyena girl,鬣狗女孩",
             "parent_en": "Costume",
             "parent_zh": "戏服",
             "sub_en": "hyena girl",
@@ -4501,6 +4621,14 @@
             "sub_en": "military",
             "sub_zh": "军装",
             "sub_desc": "任何常见的军装，如迷彩服或军官制服。不应与纳粹军装(nazi)混淆。"
+        },
+        "Costume:moth girl": {
+            "search_key": "Costume,戏服,moth girl,蛾娘",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "moth girl",
+            "sub_zh": "蛾娘",
+            "sub_desc": "一个具有蛾子特征的女性类人，包括羽毛状的触角。常见特征还包括颈部或身体其他部位的毛发，以及深色的巩膜。需要昆虫女孩(insect girl)标签。"
         },
         "Costume:mouth mask": {
             "search_key": "Costume,戏服,mouth mask,口罩",
@@ -5542,6 +5670,14 @@
             "sub_zh": "呕吐🤮",
             "sub_desc": "胃内容物通过口或鼻反流。"
         },
+        "Force:blackmail": {
+            "search_key": "Force,能力,blackmail,勒索",
+            "parent_en": "Force",
+            "parent_zh": "能力",
+            "sub_en": "blackmail",
+            "sub_zh": "勒索",
+            "sub_desc": "通过威胁或披露信息迫使他人提供性爱的行为。"
+        },
         "Force:chikan": {
             "search_key": "Force,能力,chikan,痴汉",
             "parent_en": "Force",
@@ -5549,6 +5685,14 @@
             "sub_en": "chikan",
             "sub_zh": "痴汉",
             "sub_desc": "以性方式抚摸别人的行为。经常在火车或公共汽车上发生。"
+        },
+        "Force:confinement": {
+            "search_key": "Force,能力,confinement,监禁",
+            "parent_en": "Force",
+            "parent_zh": "能力",
+            "sub_en": "confinement",
+            "sub_zh": "监禁",
+            "sub_desc": "一个人被强行关押在室内环境中，并被强行用于各种性目的。此场景必须由至少一名俘虏故意创造，并且必须持续至少两个晚上。不用于自愿被监禁的情况。被监禁者必须在某个时候意识到这种情况。如果上下文提示没有明确表明囚禁时间，则不应使用标签。"
         },
         "Force:rape": {
             "search_key": "Force,能力,rape,强奸",
@@ -5653,6 +5797,14 @@
             "sub_en": "human cattle",
             "sub_zh": "人类饲养",
             "sub_desc": "人类作为牲畜饲养，通常用于挤奶(milking)或繁殖。 通常涉及束缚(bondage)。"
+        },
+        "Sadomasochism:property tag": {
+            "search_key": "Sadomasochism,施虐受虐,property tag,所有标签",
+            "parent_en": "Sadomasochism",
+            "parent_zh": "施虐受虐",
+            "sub_en": "property tag",
+            "sub_zh": "所有标签",
+            "sub_desc": "一种标签、条形码、纹身或任何将个体物化为另一个人财产的烙印。"
         },
         "Sadomasochism:josou seme": {
             "search_key": "Sadomasochism,施虐受虐,josou seme,女装攻",
@@ -5797,6 +5949,14 @@
             "sub_en": "abortion",
             "sub_zh": "堕胎",
             "sub_desc": "任何杀害未出生的孩子的视觉描述或暗示。包括未遂行为，但不包括对孩子没有明显伤害的失败尝试。"
+        },
+        "Violence:bite mark": {
+            "search_key": "Violence,暴力,bite mark,咬痕",
+            "parent_en": "Violence",
+            "parent_zh": "暴力",
+            "sub_en": "bite mark",
+            "sub_zh": "咬痕",
+            "sub_desc": "个体被咬后，皮肤上留下的牙齿痕迹。仅适用于咬痕留下的痕迹，咬的行为本身不算作存在性。不适用于用于食用受害者的咬痕，比如食人(cannibalism)。"
         },
         "Violence:blood": {
             "search_key": "Violence,暴力,blood,流血",
@@ -6214,6 +6374,14 @@
             "sub_zh": "扶上扶",
             "sub_desc": "有阴茎的女性间的性行为。需要扶她(futanari)或人妖♂(shemale)标签。"
         },
+        "Inter-gender Relations:dickgirl on female": {
+            "search_key": "Inter-gender Relations,跨性别关系,dickgirl on female,扶上女",
+            "parent_en": "Inter-gender Relations",
+            "parent_zh": "跨性别关系",
+            "sub_en": "dickgirl on female",
+            "sub_zh": "扶上女",
+            "sub_desc": "一名有阴茎的女性插入一名没有阴茎的女性。需要扶她(futanari)或人妖♂(shemale)标签。如果两名女性都有阴茎，则应使用扶上扶(dickgirl on dickgirl)。"
+        },
         "Inter-gender Relations:dickgirl on male": {
             "search_key": "Inter-gender Relations,跨性别关系,dickgirl on male,扶上男",
             "parent_en": "Inter-gender Relations",
@@ -6301,6 +6469,14 @@
             "sub_en": "coach",
             "sub_zh": "教练",
             "sub_desc": "身体训练的指导者。"
+        },
+        "Contextual:confinement": {
+            "search_key": "Contextual,上下文,confinement,监禁",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "confinement",
+            "sub_zh": "监禁",
+            "sub_desc": "一个人被强行关押在室内环境中，并被强行用于各种性目的。此场景必须由至少一名俘虏故意创造，并且必须持续至少两个晚上。不用于自愿被监禁的情况。被监禁者必须在某个时候意识到这种情况。如果上下文提示没有明确表明囚禁时间，则不应使用标签。"
         },
         "Contextual:defloration": {
             "search_key": "Contextual,上下文,defloration,破处",
@@ -6438,6 +6614,14 @@
             "sub_zh": "纯女性⚢",
             "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
         },
+        "Gallery-Wide:kodomo only": {
+            "search_key": "Gallery-Wide,画廊范围,kodomo only,仅儿童",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "kodomo only",
+            "sub_zh": "仅儿童",
+            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
+        },
         "Gallery-Wide:males only": {
             "search_key": "Gallery-Wide,画廊范围,males only,纯男性⚣",
             "parent_en": "Gallery-Wide",
@@ -6461,6 +6645,14 @@
             "sub_en": "nudity only",
             "sub_zh": "仅裸体",
             "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
+        },
+        "Gallery-Wide:object insertion only": {
+            "search_key": "Gallery-Wide,画廊范围,object insertion only,仅物体插入",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "object insertion only",
+            "sub_zh": "仅物体插入",
+            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
         },
         "Gallery-Wide:pussyboys only": {
             "search_key": "Gallery-Wide,画廊范围,pussyboys only,仅限猫咪男孩",
@@ -6662,6 +6854,14 @@
             "sub_zh": "低存在猎奇",
             "sub_desc": "表示猎奇(guro)的情况没有通过存在规则(presence rule)。需要猎奇(guro)标签。"
         },
+        "Low Presence:low incest": {
+            "search_key": "Low Presence,低存在感,low incest,低存在乱伦",
+            "parent_en": "Low Presence",
+            "parent_zh": "低存在感",
+            "sub_en": "low incest",
+            "sub_zh": "低存在乱伦",
+            "sub_desc": "表示乱伦(incest)的情况没有通过存在规则(presence rule)。需要乱伦(incest)标签。"
+        },
         "Low Presence:low lolicon": {
             "search_key": "Low Presence,低存在感,low lolicon,低存在萝莉",
             "parent_en": "Low Presence",
@@ -6806,14 +7006,6 @@
             "sub_zh": "全彩",
             "sub_desc": "正文每一页都是彩色的。少数非故事页的非彩色图片不算在内。不用于 CG 集、图集(imageset)和3D(3d)画廊。"
         },
-        "Technical:game manual": {
-            "search_key": "Technical,技术,game manual,游戏手册",
-            "parent_en": "Technical",
-            "parent_zh": "技术",
-            "sub_en": "game manual",
-            "sub_zh": "游戏手册",
-            "sub_desc": "提供有关如何操作电子游戏的详细信息的说明书或小册子。也适用于任何包含电子游戏提示或解决方案的指导手册。专注于电子游戏的评论、回顾和新闻的出版物也符合条件。\n所有游戏手册都属于杂项(misc)类别。"
-        },
         "Technical:game sprite": {
             "search_key": "Technical,技术,game sprite,像素画",
             "parent_en": "Technical",
@@ -6845,6 +7037,14 @@
             "sub_en": "multi-work series",
             "sub_zh": "系列作品",
             "sub_desc": "一个完整的作品，其故事跨多册书籍或发行版。不应与故事线(story arc)混淆。"
+        },
+        "Technical:non-h game manual": {
+            "search_key": "Technical,技术,non-h game manual,无H游戏手册",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "non-h game manual",
+            "sub_zh": "无H游戏手册",
+            "sub_desc": "提供有关如何操作电子游戏的详细信息的说明书或小册子。也适用于任何包含电子游戏提示或解决方案的指导手册。专注于电子游戏的评论、回顾和新闻的出版物也符合条件。所有无H游戏手册都属于杂项(misc)类别。不应用于包含成人内容的游戏手册。"
         },
         "Technical:non-h imageset": {
             "search_key": "Technical,技术,non-h imageset,无H图片集",
@@ -6909,6 +7109,14 @@
             "sub_en": "themeless",
             "sub_zh": "无主题",
             "sub_desc": "没有特定主题或关注点的画廊。"
+        },
+        "Technical:various": {
+            "search_key": "Technical,技术,various,各种各样",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "various",
+            "sub_zh": "各种各样",
+            "sub_desc": "一本包含各种恶搞的同人志，当这些恶搞组合在一起时，它们会通过存在性测试，但单个恶搞或角色无法单独通过存在性测试。 非恶搞内容不会导致失格，但任何有效的角色或其他有效恶搞标签都会导致失格。请勿在同人志类别以外使用。需要原作(parody)标签。"
         },
         "Technical:western cg": {
             "search_key": "Technical,技术,western cg,西方CG",
