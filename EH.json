@@ -47,11 +47,11 @@
         "Gender",
         "Inter-gender Relations",
         "Contextual",
-        "Gallery-Wide",
         "Infidelity",
         "Incest",
         "Low Presence",
         "High Presence",
+        "Gallery-Wide",
         "Technical",
         "Censorship",
         "Cosplay",
@@ -60,7 +60,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 936,
+    "count": 966,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -6638,6 +6638,22 @@
             "sub_zh": "破处",
             "sub_desc": "女性失去了处女的过程。经常包括轻微出血。不应该与丧失童贞(virginity)标签混淆，因为此标签只用于男性。需要有足够的证据支持。"
         },
+        "Contextual:dickgirls only": {
+            "search_key": "Contextual,上下文,dickgirls only,纯扶她",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "dickgirls only",
+            "sub_zh": "纯扶她",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为扶她。要求至少两个扶她进行交互。"
+        },
+        "Contextual:females only": {
+            "search_key": "Contextual,上下文,females only,纯女性⚢",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "females only",
+            "sub_zh": "纯女性⚢",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
+        },
         "Contextual:impregnation": {
             "search_key": "Contextual,上下文,impregnation,受孕",
             "parent_en": "Contextual",
@@ -6654,6 +6670,46 @@
             "sub_zh": "小鬼",
             "sub_desc": "メスガキ，表现出傲慢、专横和诱惑的孩子，通常对地位较高的人，无论是年龄还是地位。通常，角色会嘲笑/侮辱/贬低其他角色的反应。需要萝莉(lolicon)或正太(shotacon)标签。"
         },
+        "Contextual:no penetration": {
+            "search_key": "Contextual,上下文,no penetration,无插入",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "no penetration",
+            "sub_zh": "无插入",
+            "sub_desc": "没有任何东西插入阴道，肛门或任何其他身体开口。嘴是唯一的例外。不用于无H(non-h)画廊和仅裸体(nudity only)画廊。"
+        },
+        "Contextual:nudity only": {
+            "search_key": "Contextual,上下文,nudity only,仅裸体",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "nudity only",
+            "sub_zh": "仅裸体",
+            "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
+        },
+        "Contextual:object insertion only": {
+            "search_key": "Contextual,上下文,object insertion only,仅物体插入",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "object insertion only",
+            "sub_zh": "仅物体插入",
+            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
+        },
+        "Contextual:kodomo only": {
+            "search_key": "Contextual,上下文,kodomo only,仅儿童",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "kodomo only",
+            "sub_zh": "仅儿童",
+            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
+        },
+        "Contextual:males only": {
+            "search_key": "Contextual,上下文,males only,纯男性⚣",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "males only",
+            "sub_zh": "纯男性⚣",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为男性。要求至少两个男性进行交互。人妖♀(cuntboy)不算在内。"
+        },
         "Contextual:oyakodon": {
             "search_key": "Contextual,上下文,oyakodon,父子丼",
             "parent_en": "Contextual",
@@ -6669,6 +6725,46 @@
             "sub_en": "prostitution",
             "sub_zh": "卖淫",
             "sub_desc": "以性换钱的行为。通常包括以某种挑逗的方式穿衣。"
+        },
+        "Contextual:pussyboys only": {
+            "search_key": "Contextual,上下文,pussyboys only,仅限猫咪男孩",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "pussyboys only",
+            "sub_zh": "仅限猫咪男孩",
+            "sub_desc": "画廊中的所有性、恋物或亲密互动都严格在 屄男孩（有阴道无阴茎） 之间进行（即屄男孩（有阴道无阴茎）或屌屄男孩（有阴道有阴茎））。需要至少两个 屄男孩 互动。"
+        },
+        "Contextual:sole dickgirl": {
+            "search_key": "Contextual,上下文,sole dickgirl,单扶她",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole dickgirl",
+            "sub_zh": "单扶她",
+            "sub_desc": "只有一个扶她(futanari)或人妖♂(shemale)参与了整个画廊的所有性爱或恋物癖活动。"
+        },
+        "Contextual:sole female": {
+            "search_key": "Contextual,上下文,sole female,单女主",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole female",
+            "sub_zh": "单女主",
+            "sub_desc": "只有一个女性参与了整个画廊的所有性爱或恋物癖活动。扶她(futanari)或人妖♂(shemale)不算在内。"
+        },
+        "Contextual:sole male": {
+            "search_key": "Contextual,上下文,sole male,单男主",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole male",
+            "sub_zh": "单男主",
+            "sub_desc": "只有一个男性参与了整个画廊的所有性爱或恋物癖活动。人妖♀(cuntboy)不算在内。"
+        },
+        "Contextual:sole pussyboy": {
+            "search_key": "Contextual,上下文,sole pussyboy,单扶他",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole pussyboy",
+            "sub_zh": "单扶他",
+            "sub_desc": "只有一个人妖♀(cuntboy)或扶他(otokofutanari)参与整个画廊的任何性或恋物活动（但不一定在所有活动中）。\n不应与自摸(solo action)混淆。"
         },
         "Contextual:shimaidon": {
             "search_key": "Contextual,上下文,shimaidon,兄弟丼",
@@ -6749,102 +6845,6 @@
             "sub_en": "yandere",
             "sub_zh": "病娇",
             "sub_desc": "动机来自于强迫的爱的精神病的行为。包括骚扰或劫持感兴趣的人；恐吓或伤害感知到的对手。如果有任何性活动，此人必须直接参与其中。"
-        },
-        "Gallery-Wide:dickgirls only": {
-            "search_key": "Gallery-Wide,画廊范围,dickgirls only,纯扶她",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "dickgirls only",
-            "sub_zh": "纯扶她",
-            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为扶她。要求至少两个扶她进行交互。"
-        },
-        "Gallery-Wide:females only": {
-            "search_key": "Gallery-Wide,画廊范围,females only,纯女性⚢",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "females only",
-            "sub_zh": "纯女性⚢",
-            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
-        },
-        "Gallery-Wide:kodomo only": {
-            "search_key": "Gallery-Wide,画廊范围,kodomo only,仅儿童",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "kodomo only",
-            "sub_zh": "仅儿童",
-            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
-        },
-        "Gallery-Wide:males only": {
-            "search_key": "Gallery-Wide,画廊范围,males only,纯男性⚣",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "males only",
-            "sub_zh": "纯男性⚣",
-            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为男性。要求至少两个男性进行交互。人妖♀(cuntboy)不算在内。"
-        },
-        "Gallery-Wide:no penetration": {
-            "search_key": "Gallery-Wide,画廊范围,no penetration,无插入",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "no penetration",
-            "sub_zh": "无插入",
-            "sub_desc": "没有任何东西插入阴道，肛门或任何其他身体开口。嘴是唯一的例外。不用于无H(non-h)画廊和仅裸体(nudity only)画廊。"
-        },
-        "Gallery-Wide:nudity only": {
-            "search_key": "Gallery-Wide,画廊范围,nudity only,仅裸体",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "nudity only",
-            "sub_zh": "仅裸体",
-            "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
-        },
-        "Gallery-Wide:object insertion only": {
-            "search_key": "Gallery-Wide,画廊范围,object insertion only,仅物体插入",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "object insertion only",
-            "sub_zh": "仅物体插入",
-            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
-        },
-        "Gallery-Wide:pussyboys only": {
-            "search_key": "Gallery-Wide,画廊范围,pussyboys only,仅限猫咪男孩",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "pussyboys only",
-            "sub_zh": "仅限猫咪男孩",
-            "sub_desc": "画廊中的所有性、恋物或亲密互动都严格在 屄男孩（有阴道无阴茎） 之间进行（即屄男孩（有阴道无阴茎）或屌屄男孩（有阴道有阴茎））。需要至少两个 屄男孩 互动。"
-        },
-        "Gallery-Wide:sole dickgirl": {
-            "search_key": "Gallery-Wide,画廊范围,sole dickgirl,单扶她",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole dickgirl",
-            "sub_zh": "单扶她",
-            "sub_desc": "只有一个扶她(futanari)或人妖♂(shemale)参与了整个画廊的所有性爱或恋物癖活动。"
-        },
-        "Gallery-Wide:sole female": {
-            "search_key": "Gallery-Wide,画廊范围,sole female,单女主",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole female",
-            "sub_zh": "单女主",
-            "sub_desc": "只有一个女性参与了整个画廊的所有性爱或恋物癖活动。扶她(futanari)或人妖♂(shemale)不算在内。"
-        },
-        "Gallery-Wide:sole male": {
-            "search_key": "Gallery-Wide,画廊范围,sole male,单男主",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole male",
-            "sub_zh": "单男主",
-            "sub_desc": "只有一个男性参与了整个画廊的所有性爱或恋物癖活动。人妖♀(cuntboy)不算在内。"
-        },
-        "Gallery-Wide:sole pussyboy": {
-            "search_key": "Gallery-Wide,画廊范围,sole pussyboy,单扶他",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole pussyboy",
-            "sub_zh": "单扶他",
-            "sub_desc": "只有一个人妖♀(cuntboy)或扶他(otokofutanari)参与整个画廊的任何性或恋物活动（但不一定在所有活动中）。\n不应与自摸(solo action)混淆。"
         },
         "Infidelity:cheating": {
             "search_key": "Infidelity,不忠,cheating,出轨",
@@ -7062,6 +7062,14 @@
             "sub_zh": "高存在口交",
             "sub_desc": "画廊超过 50% 的内容为口交(blowjob)。需要口交(blowjob)标签。"
         },
+        "High Presence:focus cunnilingus": {
+            "search_key": "High Presence,高存在感,focus cunnilingus,高存在舔阴",
+            "parent_en": "High Presence",
+            "parent_zh": "高存在感",
+            "sub_en": "focus cunnilingus",
+            "sub_zh": "高存在舔阴",
+            "sub_desc": "画廊超过 50% 的内容为舔阴(cunnilingus)。需要舔阴(cunnilingus)标签。"
+        },
         "High Presence:focus paizuri": {
             "search_key": "High Presence,高存在感,focus paizuri,高存在乳交",
             "parent_en": "High Presence",
@@ -7069,6 +7077,230 @@
             "sub_en": "focus paizuri",
             "sub_zh": "高存在乳交",
             "sub_desc": "画廊超过 50% 的内容为乳交(paizuri)。需要乳交(paizuri)标签。"
+        },
+        "High Presence:focus rimjob": {
+            "search_key": "High Presence,高存在感,focus rimjob,高存在舔肛",
+            "parent_en": "High Presence",
+            "parent_zh": "高存在感",
+            "sub_en": "focus rimjob",
+            "sub_zh": "高存在舔肛",
+            "sub_desc": "画廊超过 50% 的内容为舔肛(rimjob)。需要舔肛(rimjob)标签。"
+        },
+        "Gallery-Wide:anthology": {
+            "search_key": "Gallery-Wide,画廊范围,anthology,选集",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "anthology",
+            "sub_zh": "选集",
+            "sub_desc": "多个作者共同完成的完整的书（杂志）。缺页(incomplete)的选集和画集(artbook)不算在内。"
+        },
+        "Gallery-Wide:artbook": {
+            "search_key": "Gallery-Wide,画廊范围,artbook,画集",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "artbook",
+            "sub_zh": "画集",
+            "sub_desc": "有特定标题的图像集合的出版书籍，非官方的收集图不算。不用于缺页(incomplete)的作品。"
+        },
+        "Gallery-Wide:comic": {
+            "search_key": "Gallery-Wide,画廊范围,comic,西方漫画",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "comic",
+            "sub_zh": "西方漫画",
+            "sub_desc": "一种西方色情作品，利用一系列格子来说明故事。通常包含文本气球。仅用于西方(western)作品，非色情内容不算。"
+        },
+        "Gallery-Wide:dickgirls only": {
+            "search_key": "Gallery-Wide,画廊范围,dickgirls only,纯扶她",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "dickgirls only",
+            "sub_zh": "纯扶她",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为扶她。要求至少两个扶她进行交互。"
+        },
+        "Gallery-Wide:females only": {
+            "search_key": "Gallery-Wide,画廊范围,females only,纯女性⚢",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "females only",
+            "sub_zh": "纯女性⚢",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
+        },
+        "Gallery-Wide:full censorship": {
+            "search_key": "Gallery-Wide,画廊范围,full censorship,完全修正",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "full censorship",
+            "sub_zh": "完全修正",
+            "sub_desc": "任何形式的完全修正（全白色或黑色），涵盖了几乎所有或个人所有的生殖器区域。同样水平的修正需要在整个画廊完整实施。不应用于无H画廊，因为对其进行修正是必须的。不应与马赛克修正(mosaic censorship)混淆。"
+        },
+        "Gallery-Wide:full color": {
+            "search_key": "Gallery-Wide,画廊范围,full color,全彩",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "full color",
+            "sub_zh": "全彩",
+            "sub_desc": "正文每一页都是彩色的。少数非故事页的非彩色图片不算在内。不用于 CG 集、图集(imageset)和3D(3d)画廊。"
+        },
+        "Gallery-Wide:kodomo only": {
+            "search_key": "Gallery-Wide,画廊范围,kodomo only,仅儿童",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "kodomo only",
+            "sub_zh": "仅儿童",
+            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
+        },
+        "Gallery-Wide:males only": {
+            "search_key": "Gallery-Wide,画廊范围,males only,纯男性⚣",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "males only",
+            "sub_zh": "纯男性⚣",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为男性。要求至少两个男性进行交互。人妖♀(cuntboy)不算在内。"
+        },
+        "Gallery-Wide:mosaic censorship": {
+            "search_key": "Gallery-Wide,画廊范围,mosaic censorship,马赛克修正",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "mosaic censorship",
+            "sub_zh": "马赛克修正",
+            "sub_desc": "任何形式的马赛克修正，涵盖了几乎所有或个人所有的生殖器区域。同样水平的修正需要在整个画廊完整实施。不应用于无H画廊，因为对其进行修正是必须的。不应与完全修正(full censorship)混淆。"
+        },
+        "Gallery-Wide:multi-work series": {
+            "search_key": "Gallery-Wide,画廊范围,multi-work series,系列作品",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "multi-work series",
+            "sub_zh": "系列作品",
+            "sub_desc": "一个完整的作品，其故事跨多册书籍或发行版。不应与故事线(story arc)混淆。"
+        },
+        "Gallery-Wide:no penetration": {
+            "search_key": "Gallery-Wide,画廊范围,no penetration,无插入",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "no penetration",
+            "sub_zh": "无插入",
+            "sub_desc": "没有任何东西插入阴道，肛门或任何其他身体开口。嘴是唯一的例外。不用于无H(non-h)画廊和仅裸体(nudity only)画廊。"
+        },
+        "Gallery-Wide:non-nude": {
+            "search_key": "Gallery-Wide,画廊范围,non-nude,无露点",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "non-nude",
+            "sub_zh": "无露点",
+            "sub_desc": "没有展示乳头或性器的画廊。仅用于 Cosplay 画廊。"
+        },
+        "Gallery-Wide:nudity only": {
+            "search_key": "Gallery-Wide,画廊范围,nudity only,仅裸体",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "nudity only",
+            "sub_zh": "仅裸体",
+            "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
+        },
+        "Gallery-Wide:object insertion only": {
+            "search_key": "Gallery-Wide,画廊范围,object insertion only,仅物体插入",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "object insertion only",
+            "sub_zh": "仅物体插入",
+            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
+        },
+        "Gallery-Wide:pussyboys only": {
+            "search_key": "Gallery-Wide,画廊范围,pussyboys only,仅限猫咪男孩",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "pussyboys only",
+            "sub_zh": "仅限猫咪男孩",
+            "sub_desc": "画廊中的所有性、恋物或亲密互动都严格在 屄男孩（有阴道无阴茎） 之间进行（即屄男孩（有阴道无阴茎）或屌屄男孩（有阴道有阴茎））。需要至少两个 屄男孩 互动。"
+        },
+        "Gallery-Wide:sample": {
+            "search_key": "Gallery-Wide,画廊范围,sample,样本",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sample",
+            "sub_zh": "样本",
+            "sub_desc": "完整作品的免费分发样品。表明该画廊可以由一个更完整的版本替换（除非是位于 DNP 列表的作品）。"
+        },
+        "Gallery-Wide:sole dickgirl": {
+            "search_key": "Gallery-Wide,画廊范围,sole dickgirl,单扶她",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole dickgirl",
+            "sub_zh": "单扶她",
+            "sub_desc": "只有一个扶她(futanari)或人妖♂(shemale)参与了整个画廊的所有性爱或恋物癖活动。"
+        },
+        "Gallery-Wide:sole female": {
+            "search_key": "Gallery-Wide,画廊范围,sole female,单女主",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole female",
+            "sub_zh": "单女主",
+            "sub_desc": "只有一个女性参与了整个画廊的所有性爱或恋物癖活动。扶她(futanari)或人妖♂(shemale)不算在内。"
+        },
+        "Gallery-Wide:sole male": {
+            "search_key": "Gallery-Wide,画廊范围,sole male,单男主",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole male",
+            "sub_zh": "单男主",
+            "sub_desc": "只有一个男性参与了整个画廊的所有性爱或恋物癖活动。人妖♀(cuntboy)不算在内。"
+        },
+        "Gallery-Wide:sole pussyboy": {
+            "search_key": "Gallery-Wide,画廊范围,sole pussyboy,单扶他",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole pussyboy",
+            "sub_zh": "单扶他",
+            "sub_desc": "只有一个人妖♀(cuntboy)或扶他(otokofutanari)参与整个画廊的任何性或恋物活动（但不一定在所有活动中）。\n不应与自摸(solo action)混淆。"
+        },
+        "Gallery-Wide:story arc": {
+            "search_key": "Gallery-Wide,画廊范围,story arc,故事线",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "story arc",
+            "sub_zh": "故事线",
+            "sub_desc": "在单个画廊中的多个章节讲述同一个故事。需要至少 75 页或 4 章。 对于单行本(tankoubon)，50% 的内容需要符合条件。不应与系列作品(multi-work series)混淆。"
+        },
+        "Gallery-Wide:tankoubon": {
+            "search_key": "Gallery-Wide,画廊范围,tankoubon,单行本",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "tankoubon",
+            "sub_zh": "单行本",
+            "sub_desc": "单行本，源于日本，是指丛书的其中一本。常见于日本漫画或轻小说，即是合辑成书。例如轻小说于各媒体连载后，把内容从连载的刊物重印成为一本独立以一个作品为题材的书籍。一般漫画单行本由 6 至 10 回集结而成。"
+        },
+        "Gallery-Wide:themeless": {
+            "search_key": "Gallery-Wide,画廊范围,themeless,无主题",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "themeless",
+            "sub_zh": "无主题",
+            "sub_desc": "没有特定主题或关注点的画廊。"
+        },
+        "Gallery-Wide:uncensored": {
+            "search_key": "Gallery-Wide,画廊范围,uncensored,无修正",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "uncensored",
+            "sub_zh": "无修正",
+            "sub_desc": "发表时就无码或之后消码，画廊没有任何修正点。不应使用于西方(western)分类的画廊。"
+        },
+        "Gallery-Wide:variant set": {
+            "search_key": "Gallery-Wide,画廊范围,variant set,变体集",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "variant set",
+            "sub_zh": "变体集",
+            "sub_desc": "从静态角度仅描绘单一场景的画廊。"
+        },
+        "Technical:western cg": {
+            "search_key": "Technical,技术,western cg,西方CG",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "western cg",
+            "sub_zh": "西方CG",
+            "sub_desc": "用于西方(western)分类的画师CG(artistcg)或游戏CG(gamecg)。不包含3D(3d)作品。仅适用于西方(western)分类。类别标签候选。"
         },
         "Technical:3d": {
             "search_key": "Technical,技术,3d,3D",
@@ -7206,6 +7438,14 @@
             "sub_zh": "无H图片集",
             "sub_desc": "绘制的非色情内容，不构成漫画或漫画集（即松散的图像，屏幕截图等）。 这样的画廊中的图像最好具有单一主题（例如，单一的艺术家，系列，人物或恋物癖）。只用于无H(non-h)分类。"
         },
+        "Technical:original": {
+            "search_key": "Technical,技术,original,原创",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "original",
+            "sub_zh": "原创",
+            "sub_desc": "适用于不包含任何已知媒体/系列中角色或内容的同人志(doujinshi)或画师CG(artistcg)。此标签不得用于同人志(doujinshi)或画师CG(artistcg)类别之外。"
+        },
         "Technical:paperchild": {
             "search_key": "Technical,技术,paperchild,纸片人",
             "parent_en": "Technical",
@@ -7269,14 +7509,6 @@
             "sub_en": "various",
             "sub_zh": "各种各样",
             "sub_desc": "一本包含各种恶搞的同人志，当这些恶搞组合在一起时，它们会通过存在性测试，但单个恶搞或角色无法单独通过存在性测试。 非恶搞内容不会导致失格，但任何有效的角色或其他有效恶搞标签都会导致失格。请勿在同人志类别以外使用。需要原作(parody)标签。"
-        },
-        "Technical:western cg": {
-            "search_key": "Technical,技术,western cg,西方CG",
-            "parent_en": "Technical",
-            "parent_zh": "技术",
-            "sub_en": "western cg",
-            "sub_zh": "西方CG",
-            "sub_desc": "用于西方(western)分类的画师CG(artistcg)或游戏CG(gamecg)。不包含3D(3d)作品。仅适用于西方(western)分类。类别标签候选。"
         },
         "Technical:western non-h": {
             "search_key": "Technical,技术,western non-h,西方无H",
