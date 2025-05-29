@@ -1,5 +1,5 @@
 {
-    "version": "20220520.1641",
+    "version": "20250527.1314",
     "parent_en_array": [
         "Age",
         "Body",
@@ -49,6 +49,7 @@
         "Contextual",
         "Infidelity",
         "Incest",
+        "Location",
         "Low Presence",
         "High Presence",
         "Gallery-Wide",
@@ -60,7 +61,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 966,
+    "count": 968,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -6990,6 +6991,22 @@
             "sub_zh": "叔叔",
             "sub_desc": "叔叔与侄子间的性行为。需要乱伦(incest)和男同(yaoi)标签。"
         },
+        "Location:onsen": {
+            "search_key": "Location,地点,onsen,温泉",
+            "parent_en": "Location",
+            "parent_zh": "地点",
+            "sub_en": "onsen",
+            "sub_zh": "温泉",
+            "sub_desc": "一个或多个参与者在温泉赤身裸体或发生性行为。必须在洗浴设施内或附近。在任何附属旅馆等内发生的性行为不计算在内。"
+        },
+        "Location:underwater": {
+            "search_key": "Location,地点,underwater,水下",
+            "parent_en": "Location",
+            "parent_zh": "地点",
+            "sub_en": "underwater",
+            "sub_zh": "水下",
+            "sub_desc": "在性期间大部分或完全浸没在液体中。"
+        },
         "Low Presence:low bestiality": {
             "search_key": "Low Presence,低存在感,low bestiality,低存在兽交",
             "parent_en": "Low Presence",
@@ -7294,10 +7311,10 @@
             "sub_zh": "变体集",
             "sub_desc": "从静态角度仅描绘单一场景的画廊。"
         },
-        "Technical:western cg": {
-            "search_key": "Technical,技术,western cg,西方CG",
-            "parent_en": "Technical",
-            "parent_zh": "技术",
+        "Gallery-Wide:western cg": {
+            "search_key": "Gallery-Wide,画廊范围,western cg,西方CG",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
             "sub_en": "western cg",
             "sub_zh": "西方CG",
             "sub_desc": "用于西方(western)分类的画师CG(artistcg)或游戏CG(gamecg)。不包含3D(3d)作品。仅适用于西方(western)分类。类别标签候选。"
@@ -7509,6 +7526,14 @@
             "sub_en": "various",
             "sub_zh": "各种各样",
             "sub_desc": "一本包含各种恶搞的同人志，当这些恶搞组合在一起时，它们会通过存在性测试，但单个恶搞或角色无法单独通过存在性测试。 非恶搞内容不会导致失格，但任何有效的角色或其他有效恶搞标签都会导致失格。请勿在同人志类别以外使用。需要原作(parody)标签。"
+        },
+        "Technical:western cg": {
+            "search_key": "Technical,技术,western cg,西方CG",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "western cg",
+            "sub_zh": "西方CG",
+            "sub_desc": "用于西方(western)分类的画师CG(artistcg)或游戏CG(gamecg)。不包含3D(3d)作品。仅适用于西方(western)分类。类别标签候选。"
         },
         "Technical:western non-h": {
             "search_key": "Technical,技术,western non-h,西方无H",
