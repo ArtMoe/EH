@@ -1,11 +1,9 @@
 {
-    "version": "20241220.1806",
+    "version": "20250527.1314",
     "parent_en_array": [
         "Age",
         "Body",
         "Change",
-        "Creature",
-        "Animal",
         "Height",
         "Skin",
         "Weight",
@@ -28,6 +26,8 @@
         "Either Hole",
         "Legs",
         "Feet",
+        "Creature",
+        "Animal",
         "Costume",
         "Multiple Activities",
         "Multiple Holes",
@@ -47,11 +47,12 @@
         "Gender",
         "Inter-gender Relations",
         "Contextual",
-        "Gallery-Wide",
         "Infidelity",
         "Incest",
+        "Location",
         "Low Presence",
         "High Presence",
+        "Gallery-Wide",
         "Technical",
         "Censorship",
         "Cosplay",
@@ -60,7 +61,7 @@
         "Format",
         "Meta-Language"
     ],
-    "count": 917,
+    "count": 968,
     "data": {
         "Age:age progression": {
             "search_key": "Age,年龄,age progression,年龄增长",
@@ -190,6 +191,14 @@
             "sub_zh": "身体改造",
             "sub_desc": "以人工方式替换身体的某些部位。不应与变身(transformation)混淆。"
         },
+        "Body:body swap": {
+            "search_key": "Body,身体,body swap,换身",
+            "parent_en": "Body",
+            "parent_zh": "身体",
+            "sub_en": "body swap",
+            "sub_zh": "换身",
+            "sub_desc": "与另一名参与者交换身体。\n不应与附身(possession)混淆。"
+        },
         "Body:conjoined": {
             "search_key": "Body,身体,conjoined,连体",
             "parent_en": "Body",
@@ -278,13 +287,13 @@
             "sub_zh": "肌肉成长",
             "sub_desc": "肌肉产生或变大。"
         },
-        "Body:pregnant": {
-            "search_key": "Body,身体,pregnant,怀孕",
+        "Body:petrification": {
+            "search_key": "Body,身体,petrification,石化",
             "parent_en": "Body",
             "parent_zh": "身体",
-            "sub_en": "pregnant",
-            "sub_zh": "怀孕",
-            "sub_desc": "与已经怀孕的角色性交。不用于仅出现怀孕角色的情况，也不用于受孕(impregnation)。"
+            "sub_en": "petrification",
+            "sub_zh": "石化",
+            "sub_desc": "成为雕像/岩石般的形象。"
         },
         "Body:shapening": {
             "search_key": "Body,身体,shapening,平面化",
@@ -293,6 +302,14 @@
             "sub_en": "shapening",
             "sub_zh": "平面化",
             "sub_desc": "参与者弄平，融化或以其他方式变为几何形状（例如球形或立方体）。不要与身体改造(body modification)相混淆。"
+        },
+        "Body:shrinking": {
+            "search_key": "Body,身体,shrinking,缩小",
+            "parent_en": "Body",
+            "parent_zh": "身体",
+            "sub_en": "shrinking",
+            "sub_zh": "缩小",
+            "sub_desc": "变矮，有可能成为迷你男孩(miniguy)。"
         },
         "Body:stretching": {
             "search_key": "Body,身体,stretching,拉伸",
@@ -309,6 +326,22 @@
             "sub_en": "tailjob",
             "sub_zh": "尾交",
             "sub_desc": "用尾巴模拟性器官。"
+        },
+        "Body:transformation": {
+            "search_key": "Body,身体,transformation,变身",
+            "parent_en": "Body",
+            "parent_zh": "身体",
+            "sub_en": "transformation",
+            "sub_zh": "变身",
+            "sub_desc": "广义变身，从男变女到变成动物，奥特曼，魔法少女都可以使用此标签。"
+        },
+        "Body:weight gain": {
+            "search_key": "Body,身体,weight gain,体重增加",
+            "parent_en": "Body",
+            "parent_zh": "身体",
+            "sub_en": "weight gain",
+            "sub_zh": "体重增加",
+            "sub_desc": "通过摄取食物而变得更胖，极有可能成为胖男人(bbm)。不应与腹部膨胀(inflation)混淆。"
         },
         "Body:wingjob": {
             "search_key": "Body,身体,wingjob,翼交",
@@ -365,6 +398,14 @@
             "sub_en": "balls expansion",
             "sub_zh": "睾丸生长",
             "sub_desc": "睾丸的尺寸增大，可能成为大睾丸(big balls)。"
+        },
+        "Change:body modification": {
+            "search_key": "Change,改变,body modification,身体改造",
+            "parent_en": "Change",
+            "parent_zh": "改变",
+            "sub_en": "body modification",
+            "sub_zh": "身体改造",
+            "sub_desc": "以人工方式替换身体的某些部位。不应与变身(transformation)混淆。"
         },
         "Change:body swap": {
             "search_key": "Change,改变,body swap,换身",
@@ -478,6 +519,14 @@
             "sub_zh": "阴茎生长",
             "sub_desc": "阴茎异常生长的过程，可能产生大根(big penis)。不应该与正常的勃起混淆，也不适用性转换(gender change)标签。"
         },
+        "Change:penis reduction": {
+            "search_key": "Change,改变,penis reduction,阴茎缩小",
+            "parent_en": "Change",
+            "parent_zh": "改变",
+            "sub_en": "penis reduction",
+            "sub_zh": "阴茎缩小",
+            "sub_desc": "阴茎尺寸的任何显著减小。可能导致小小鸟(small penis)。不应与勃起功能障碍混淆。参与者突然完全失去阴茎不算在内。"
+        },
         "Change:personality excretion": {
             "search_key": "Change,改变,personality excretion,人格排泄",
             "parent_en": "Change",
@@ -517,1222 +566,6 @@
             "sub_en": "weight gain",
             "sub_zh": "体重增加",
             "sub_desc": "通过摄取食物而变得更胖，极有可能成为胖男人(bbm)。不应与腹部膨胀(inflation)混淆。"
-        },
-        "Creature:alien": {
-            "search_key": "Creature,生物,alien,外星人👽",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "alien",
-            "sub_zh": "外星人👽",
-            "sub_desc": "具有外星生物特征的男性。"
-        },
-        "Creature:alien girl": {
-            "search_key": "Creature,生物,alien girl,外星女👽",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "alien girl",
-            "sub_zh": "外星女👽",
-            "sub_desc": "具有外星生物特征的女性。"
-        },
-        "Creature:angel": {
-            "search_key": "Creature,生物,angel,天使",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "angel",
-            "sub_zh": "天使",
-            "sub_desc": "拥有天使的翅膀或光环。"
-        },
-        "Creature:bat boy": {
-            "search_key": "Creature,生物,bat boy,蝙蝠男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bat boy",
-            "sub_zh": "蝙蝠男",
-            "sub_desc": "蝙蝠娘(bat girl)的男性版本。"
-        },
-        "Creature:bat girl": {
-            "search_key": "Creature,生物,bat girl,蝙蝠娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bat girl",
-            "sub_zh": "蝙蝠娘",
-            "sub_desc": "雌性类人动物，具翅膀，耳朵，有时还有尾巴或蝙蝠的其他显着特征。"
-        },
-        "Creature:bear boy": {
-            "search_key": "Creature,生物,bear boy,狗熊男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bear boy",
-            "sub_zh": "狗熊男",
-            "sub_desc": "有圆形耳朵和其他熊的特征的男性。"
-        },
-        "Creature:bear girl": {
-            "search_key": "Creature,生物,bear girl,狗熊娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bear girl",
-            "sub_zh": "狗熊娘",
-            "sub_desc": "有圆形耳朵和其他熊的特征的女性。不应与熊猫娘(panda girl)混淆。"
-        },
-        "Creature:bee boy": {
-            "search_key": "Creature,生物,bee boy,蜂男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bee boy",
-            "sub_zh": "蜂男",
-            "sub_desc": "蜂女(bee girl)的男性版本。"
-        },
-        "Creature:bee girl": {
-            "search_key": "Creature,生物,bee girl,蜂女",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bee girl",
-            "sub_zh": "蜂女",
-            "sub_desc": "具有蜜蜂特征的女性。"
-        },
-        "Creature:bird boy": {
-            "search_key": "Creature,生物,bird boy,鸟男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bird boy",
-            "sub_zh": "鸟男",
-            "sub_desc": "鸟娘(bird girl)的男性版本。"
-        },
-        "Creature:bird girl": {
-            "search_key": "Creature,生物,bird girl,鸟娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bird girl",
-            "sub_zh": "鸟娘",
-            "sub_desc": "鸟与人类的混合体，几乎全身覆盖羽毛；通常有翅膀、喙和其他鸟类特征。需要毛茸茸(furry)标签。不应与鸟人(harpy)混淆。"
-        },
-        "Creature:bunny boy": {
-            "search_key": "Creature,生物,bunny boy,兔子男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bunny boy",
-            "sub_zh": "兔子男孩",
-            "sub_desc": "兔女郎(bunny girl)的男性版本。"
-        },
-        "Creature:bunny girl": {
-            "search_key": "Creature,生物,bunny girl,兔女郎",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "bunny girl",
-            "sub_zh": "兔女郎",
-            "sub_desc": "兔耳朵，偶尔也有一个蓬松的尾巴。"
-        },
-        "Creature:catboy": {
-            "search_key": "Creature,生物,catboy,猫男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "catboy",
-            "sub_zh": "猫男",
-            "sub_desc": "猫女(catgirl)的男性版本。"
-        },
-        "Creature:catgirl": {
-            "search_key": "Creature,生物,catgirl,猫女",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "catgirl",
-            "sub_zh": "猫女",
-            "sub_desc": "有猫耳，可能有猫尾或其他猫的特征。"
-        },
-        "Creature:centaur": {
-            "search_key": "Creature,生物,centaur,半人马",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "centaur",
-            "sub_zh": "半人马",
-            "sub_desc": "一半是人，一半是马。"
-        },
-        "Creature:corpse": {
-            "search_key": "Creature,生物,corpse,尸体",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "corpse",
-            "sub_zh": "尸体",
-            "sub_desc": "一具死尸。尸体本身不需要具有恋物特征（例如裸体）。不应用于僵尸🧟‍♂️(zombie)。奸尸(necrophilia)需要此标签。不需要杀害(snuff)标签，杀害(snuff)标签要求参与者明显被杀害。"
-        },
-        "Creature:cowgirl": {
-            "search_key": "Creature,生物,cowgirl,牛女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "cowgirl",
-            "sub_zh": "牛女孩",
-            "sub_desc": "有牛的特征（如耳朵、牛角、牛铃和尾巴）的女孩，常与巨乳配对。"
-        },
-        "Creature:cowman": {
-            "search_key": "Creature,生物,cowman,牛男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "cowman",
-            "sub_zh": "牛男",
-            "sub_desc": "牛女孩(cowgirl)的男性版本，不要与牛🐂(bull)混淆。"
-        },
-        "Creature:deer boy": {
-            "search_key": "Creature,生物,deer boy,鹿男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "deer boy",
-            "sub_zh": "鹿男孩",
-            "sub_desc": "鹿女孩(deer girl)的男性版本。"
-        },
-        "Creature:deer girl": {
-            "search_key": "Creature,生物,deer girl,鹿女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "deer girl",
-            "sub_zh": "鹿女孩",
-            "sub_desc": "有鹿或驯鹿的尾巴和角的女性。男性版本见鹿男孩(deer boy)。"
-        },
-        "Creature:demon": {
-            "search_key": "Creature,生物,demon,恶魔",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "demon",
-            "sub_zh": "恶魔",
-            "sub_desc": "男性恶魔或者具有较强恶魔般外观的人形生物（翅膀，角，尖尾，皮肤异色等）。不能与恶魔女孩(demon girl)或鬼(oni)标签混淆。恶魔不应该被标记为怪物(monster)。只有恶魔翅膀，但没有其他的恶魔特征的角色仅限定为翅膀(wings)标签。"
-        },
-        "Creature:demon girl": {
-            "search_key": "Creature,生物,demon girl,恶魔女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "demon girl",
-            "sub_zh": "恶魔女孩",
-            "sub_desc": "女性恶魔或者具有较强恶魔般外观的人形生物（翅膀，角，尖尾，皮肤异色等）。不能与恶魔(demon)或鬼(oni)标签混淆。恶魔女孩不应该被标记为魔物娘(monster girl)。只有恶魔翅膀，但没有其他的恶魔特征的角色仅限定为翅膀(wings)标签。"
-        },
-        "Creature:dog boy": {
-            "search_key": "Creature,生物,dog boy,狗男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "dog boy",
-            "sub_zh": "狗男孩",
-            "sub_desc": "狗女孩(dog girl)的男性版本。"
-        },
-        "Creature:dog girl": {
-            "search_key": "Creature,生物,dog girl,狗女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "dog girl",
-            "sub_zh": "狗女孩",
-            "sub_desc": "有狗耳朵或狗尾巴的女性。"
-        },
-        "Creature:draenei": {
-            "search_key": "Creature,生物,draenei,德莱尼",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "draenei",
-            "sub_zh": "德莱尼",
-            "sub_desc": "魔兽世界(world of warcraft)的恶魔人形生物。有蓝色的皮肤与蹄和发光的眼睛。"
-        },
-        "Creature:elephant boy": {
-            "search_key": "Creature,生物,elephant boy,象男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "elephant boy",
-            "sub_zh": "象男孩",
-            "sub_desc": "象女孩(elephant girl)的男性版本。"
-        },
-        "Creature:elephant girl": {
-            "search_key": "Creature,生物,elephant girl,象女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "elephant girl",
-            "sub_zh": "象女孩",
-            "sub_desc": "具有象鼻或象耳的雌性，可能还有其他大象或猛犸象的特征，例如象牙。男性版本见象男孩(elephant boy)。"
-        },
-        "Creature:fairy": {
-            "search_key": "Creature,生物,fairy,仙子🧚‍♂️",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "fairy",
-            "sub_zh": "仙子🧚‍♂️",
-            "sub_desc": "有翅膀的人或其他生物，往往体型很小。"
-        },
-        "Creature:fox boy": {
-            "search_key": "Creature,生物,fox boy,狐男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "fox boy",
-            "sub_zh": "狐男",
-            "sub_desc": "狐女(fox girl)的男性版本。"
-        },
-        "Creature:fox girl": {
-            "search_key": "Creature,生物,fox girl,狐女",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "fox girl",
-            "sub_zh": "狐女",
-            "sub_desc": "有狐狸耳朵和尾巴的女孩。"
-        },
-        "Creature:frog boy": {
-            "search_key": "Creature,生物,frog boy,青蛙男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "frog boy",
-            "sub_zh": "青蛙男孩",
-            "sub_desc": "青蛙女孩(frog girl)的男性版本。"
-        },
-        "Creature:frog girl": {
-            "search_key": "Creature,生物,frog girl,青蛙女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "frog girl",
-            "sub_zh": "青蛙女孩",
-            "sub_desc": "身材矮小，皮肤光滑，长爬行动物附肢的女性。可能有长舌👅(long tongue)。"
-        },
-        "Creature:furry": {
-            "search_key": "Creature,生物,furry,毛茸茸",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "furry",
-            "sub_zh": "毛茸茸",
-            "sub_desc": "拟人化的动物角色，具有人的个性与特点。"
-        },
-        "Creature:ghost": {
-            "search_key": "Creature,生物,ghost,幽灵👻",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "ghost",
-            "sub_zh": "幽灵👻",
-            "sub_desc": "与非物质的存在性交。"
-        },
-        "Creature:giraffe boy": {
-            "search_key": "Creature,生物,giraffe boy,长颈鹿男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "giraffe boy",
-            "sub_zh": "长颈鹿男",
-            "sub_desc": "长颈鹿娘(giraffe girl)的男性版本。"
-        },
-        "Creature:giraffe girl": {
-            "search_key": "Creature,生物,giraffe girl,长颈鹿娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "giraffe girl",
-            "sub_zh": "长颈鹿娘",
-            "sub_desc": "有长颈鹿的耳朵和尾巴的女孩，通常在衣服或毛皮上有黄色和棕色斑点。可能有长脖子。"
-        },
-        "Creature:goblin": {
-            "search_key": "Creature,生物,goblin,哥布林",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "goblin",
-            "sub_zh": "哥布林",
-            "sub_desc": "幻想生物，通常身高约为正常人的1/2至3/4。 通常有厚鼻子，尖耳朵，大嘴和小而锋利的牙齿。"
-        },
-        "Creature:harpy": {
-            "search_key": "Creature,生物,harpy,鸟人",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "harpy",
-            "sub_zh": "鸟人",
-            "sub_desc": "鸟与人类的混合体。"
-        },
-        "Creature:horse boy": {
-            "search_key": "Creature,生物,horse boy,马男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "horse boy",
-            "sub_zh": "马男孩",
-            "sub_desc": "马女孩(horse girl)的男性版本。"
-        },
-        "Creature:horse girl": {
-            "search_key": "Creature,生物,horse girl,马女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "horse girl",
-            "sub_zh": "马女孩",
-            "sub_desc": "拥有马尾或其他马的特征的女性。"
-        },
-        "Creature:human on furry": {
-            "search_key": "Creature,生物,human on furry,人毛",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "human on furry",
-            "sub_zh": "人毛",
-            "sub_desc": "人与毛茸茸(furry)角色间的性行为。"
-        },
-        "Creature:hyena boy": {
-            "search_key": "Creature,生物,hyena boy,鬣狗男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "hyena boy",
-            "sub_zh": "鬣狗男孩",
-            "sub_desc": "具有鬣狗特征的女性类人生物，例如大圆/尖耳朵和半厚毛尾巴。通常被描绘为具有条状或点状的皮毛或更深色的四肢。不应与鬣狗女孩(dog girl)混淆。"
-        },
-        "Creature:hyena girl": {
-            "search_key": "Creature,生物,hyena girl,鬣狗女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "hyena girl",
-            "sub_zh": "鬣狗女孩",
-            "sub_desc": "鬣狗男孩(hyena boy)的女性版本。"
-        },
-        "Creature:insect boy": {
-            "search_key": "Creature,生物,insect boy,昆虫男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "insect boy",
-            "sub_zh": "昆虫男孩",
-            "sub_desc": "昆虫女孩(insect girl)的男性版本。"
-        },
-        "Creature:insect girl": {
-            "search_key": "Creature,生物,insect girl,昆虫女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "insect girl",
-            "sub_zh": "昆虫女孩",
-            "sub_desc": "有触角，往往有一个壳或甲壳躯干。"
-        },
-        "Creature:kangaroo boy": {
-            "search_key": "Creature,生物,kangaroo boy,袋鼠男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "kangaroo boy",
-            "sub_zh": "袋鼠男孩",
-            "sub_desc": "袋鼠男孩(kangaroo girl)的男性版本。"
-        },
-        "Creature:kangaroo girl‎": {
-            "search_key": "Creature,生物,kangaroo girl‎,袋鼠女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "kangaroo girl‎",
-            "sub_zh": "袋鼠女孩",
-            "sub_desc": "一个女性角色，具有长长的耳朵、粗壮而长的尾巴，以及可能还有其他袋鼠的特征。"
-        },
-        "Creature:kappa": {
-            "search_key": "Creature,生物,kappa,河童",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "kappa",
-            "sub_zh": "河童",
-            "sub_desc": "日本民间想象中的动物、水中的妖怪。喜食黄瓜。由水神沦落而变成妖怪。"
-        },
-        "Creature:kemonomimi": {
-            "search_key": "Creature,生物,kemonomimi,兽耳",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "kemonomimi",
-            "sub_zh": "兽耳",
-            "sub_desc": "有动物耳朵的角色，有时还有一条尾巴。不应与毛茸茸(furry)混淆。"
-        },
-        "Creature:lizard girl": {
-            "search_key": "Creature,生物,lizard girl,蜥蜴女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "lizard girl",
-            "sub_zh": "蜥蜴女孩",
-            "sub_desc": "有爬行动物的鳞片和尾巴的女孩。"
-        },
-        "Creature:lizard guy": {
-            "search_key": "Creature,生物,lizard guy,蜥蜴男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "lizard guy",
-            "sub_zh": "蜥蜴男孩",
-            "sub_desc": "蜥蜴女孩(lizard girl)的男性版本。"
-        },
-        "Creature:mermaid": {
-            "search_key": "Creature,生物,mermaid,美人鱼🧜‍♀️",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "mermaid",
-            "sub_zh": "美人鱼🧜‍♀️",
-            "sub_desc": "上半身是人，下半身是鱼。"
-        },
-        "Creature:merman": {
-            "search_key": "Creature,生物,merman,人鱼🧜‍♂️",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "merman",
-            "sub_zh": "人鱼🧜‍♂️",
-            "sub_desc": "美人鱼🧜‍♀️(mermaid)的男性版本。"
-        },
-        "Creature:minotaur": {
-            "search_key": "Creature,生物,minotaur,牛头人",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "minotaur",
-            "sub_zh": "牛头人",
-            "sub_desc": "弥诺陶洛斯（古希腊语：Μῑνώταυρος，字面意思为“弥诺斯的牛”），希腊神话中一个著名的半人半牛怪物。"
-        },
-        "Creature:monkey boy": {
-            "search_key": "Creature,生物,monkey boy,猴男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "monkey boy",
-            "sub_zh": "猴男孩",
-            "sub_desc": "猴女孩(monkey girl)的男性版本。"
-        },
-        "Creature:monkey girl": {
-            "search_key": "Creature,生物,monkey girl,猴女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "monkey girl",
-            "sub_zh": "猴女孩",
-            "sub_desc": "有猴子的耳朵，通常也有猴子的尾巴或其他特征。"
-        },
-        "Creature:monoeye": {
-            "search_key": "Creature,生物,monoeye,独眼",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "monoeye",
-            "sub_zh": "独眼",
-            "sub_desc": "一个单眼的人形角色。 一个双眼的人物因为任何原因失去了眼睛（除了变身(transformation)）不符合条件。需要怪物(monster)或外星人👽(alien)标签。"
-        },
-        "Creature:monster": {
-            "search_key": "Creature,生物,monster,怪物",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "monster",
-            "sub_zh": "怪物",
-            "sub_desc": "MONSTER（モンスター）/  魔刹"
-        },
-        "Creature:monster girl": {
-            "search_key": "Creature,生物,monster girl,魔物娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "monster girl",
-            "sub_zh": "魔物娘",
-            "sub_desc": "怪物(monster)的女性版本。"
-        },
-        "Creature:moth girl": {
-            "search_key": "Creature,生物,moth girl,蛾娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "moth girl",
-            "sub_zh": "蛾娘",
-            "sub_desc": "一个具有蛾子特征的女性类人，包括羽毛状的触角。常见特征还包括颈部或身体其他部位的毛发，以及深色的巩膜。需要昆虫女孩(insect girl)标签。"
-        },
-        "Creature:mouse boy": {
-            "search_key": "Creature,生物,mouse boy,鼠男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "mouse boy",
-            "sub_zh": "鼠男孩",
-            "sub_desc": "鼠女孩(mouse girl)的男性版本。"
-        },
-        "Creature:mouse girl": {
-            "search_key": "Creature,生物,mouse girl,鼠女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "mouse girl",
-            "sub_zh": "鼠女孩",
-            "sub_desc": "特征是圆形的鼠耳朵和类似啮齿动物的尾巴。一般喜欢奶酪。"
-        },
-        "Creature:necrophilia": {
-            "search_key": "Creature,生物,necrophilia,奸尸",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "necrophilia",
-            "sub_zh": "奸尸",
-            "sub_desc": "涉及尸体的性行为。"
-        },
-        "Creature:oni": {
-            "search_key": "Creature,生物,oni,鬼",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "oni",
-            "sub_zh": "鬼",
-            "sub_desc": "人形生物，他们的头上有1-2个角，并可能长有尖尖的耳朵。没有翅膀或尾巴。不应与恶魔(demon)混淆。"
-        },
-        "Creature:orc": {
-            "search_key": "Creature,生物,orc,兽人",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "orc",
-            "sub_zh": "兽人",
-            "sub_desc": "幻想的生物，与人一样高或比人高一点。 通常有倾斜的额头，突出的下巴，突出的牙齿和粗糙的头发。"
-        },
-        "Creature:otter boy": {
-            "search_key": "Creature,生物,otter boy,水獭男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "otter boy",
-            "sub_zh": "水獭男孩",
-            "sub_desc": "水獭女孩(otter girl)的男性版本。"
-        },
-        "Creature:otter girl": {
-            "search_key": "Creature,生物,otter girl,水獭女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "otter girl",
-            "sub_zh": "水獭女孩",
-            "sub_desc": "雌性，具有长矛状长尾，圆耳朵和水獭的其他特征。 鼻口、颈部和躯干通常颜色较浅。"
-        },
-        "Creature:panda boy": {
-            "search_key": "Creature,生物,panda boy,熊猫男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "panda boy",
-            "sub_zh": "熊猫男",
-            "sub_desc": "熊猫娘(panda girl)的男性版本。"
-        },
-        "Creature:panda girl": {
-            "search_key": "Creature,生物,panda girl,熊猫娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "panda girl",
-            "sub_zh": "熊猫娘",
-            "sub_desc": "圆形耳朵、眼睛周围的黑色斑块以及身体其他部位的特征。"
-        },
-        "Creature:pig girl": {
-            "search_key": "Creature,生物,pig girl,猪女",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "pig girl",
-            "sub_zh": "猪女",
-            "sub_desc": "有猪耳朵、猪鼻、猪尾或猪的其他特征。"
-        },
-        "Creature:pig man": {
-            "search_key": "Creature,生物,pig man,猪男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "pig man",
-            "sub_zh": "猪男",
-            "sub_desc": "猪女(pig girl)的男性版本。"
-        },
-        "Creature:plant boy": {
-            "search_key": "Creature,生物,plant boy,植物男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "plant boy",
-            "sub_zh": "植物男孩",
-            "sub_desc": "植物女孩(plant girl)的男性版本。需要怪物(monster)标签。"
-        },
-        "Creature:plant girl": {
-            "search_key": "Creature,生物,plant girl,植物女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "plant girl",
-            "sub_zh": "植物女孩",
-            "sub_desc": "女性的植物-人类混合体。需要魔物娘(monster girl)标签。"
-        },
-        "Creature:raccoon boy": {
-            "search_key": "Creature,生物,raccoon boy,浣熊男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "raccoon boy",
-            "sub_zh": "浣熊男孩",
-            "sub_desc": "浣熊女孩(raccoon girl)的男性版本。"
-        },
-        "Creature:raccoon girl": {
-            "search_key": "Creature,生物,raccoon girl,浣熊女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "raccoon girl",
-            "sub_zh": "浣熊女孩",
-            "sub_desc": "拥有耳朵、尾巴及其他浣熊的特征。"
-        },
-        "Creature:robot": {
-            "search_key": "Creature,生物,robot,机器人🤖",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "robot",
-            "sub_zh": "机器人🤖",
-            "sub_desc": "机械的人形。"
-        },
-        "Creature:shark boy": {
-            "search_key": "Creature,生物,shark boy,鲨男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "shark boy",
-            "sub_zh": "鲨男孩",
-            "sub_desc": "鲨女孩(shark girl)的男性版本。"
-        },
-        "Creature:shark girl": {
-            "search_key": "Creature,生物,shark girl,鲨女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "shark girl",
-            "sub_zh": "鲨女孩",
-            "sub_desc": "一个尾巴是尾鳍而不是身体下部的女性。 通常也有锋利的牙齿。"
-        },
-        "Creature:sheep boy": {
-            "search_key": "Creature,生物,sheep boy,羊男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "sheep boy",
-            "sub_zh": "羊男孩",
-            "sub_desc": "羊女孩(sheep girl)的男性版本。"
-        },
-        "Creature:sheep girl": {
-            "search_key": "Creature,生物,sheep girl,羊女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "sheep girl",
-            "sub_zh": "羊女孩",
-            "sub_desc": "有羊毛和羊角的女性。"
-        },
-        "Creature:skeleton": {
-            "search_key": "Creature,生物,skeleton,骷髅",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "skeleton",
-            "sub_zh": "骷髅",
-            "sub_desc": "一种身体由骨骼构成，几乎没有皮肤的生物。也可能包括头部。需要使用怪物(monster)或魔物娘(monster gril)标签。不应用与透视(x-ray)。不应与僵尸🧟‍♂️(zombie)或奸尸(necrophilia)混淆。"
-        },
-        "Creature:skunk boy": {
-            "search_key": "Creature,生物,skunk boy,臭鼬男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "skunk boy",
-            "sub_zh": "臭鼬男",
-            "sub_desc": "臭鼬娘(skunk girl)的男性版本。"
-        },
-        "Creature:skunk girl": {
-            "search_key": "Creature,生物,skunk girl,臭鼬娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "skunk girl",
-            "sub_zh": "臭鼬娘",
-            "sub_desc": "有臭鼬尾巴或其他特征的女性。"
-        },
-        "Creature:slime": {
-            "search_key": "Creature,生物,slime,史莱姆",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "slime",
-            "sub_zh": "史莱姆",
-            "sub_desc": "任何涉及性的粘液/凝胶状物质。基于史莱姆的生物需要此标签和怪物(monster)标签。"
-        },
-        "Creature:slime boy": {
-            "search_key": "Creature,生物,slime boy,史莱姆男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "slime boy",
-            "sub_zh": "史莱姆男孩",
-            "sub_desc": "身体由粘性物体组成的男性。不得与史莱姆(slime)混淆。"
-        },
-        "Creature:slime girl": {
-            "search_key": "Creature,生物,slime girl,史莱姆女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "slime girl",
-            "sub_zh": "史莱姆女孩",
-            "sub_desc": "身体由粘性物体组成的女性。不得与史莱姆(slime)混淆。"
-        },
-        "Creature:snail girl": {
-            "search_key": "Creature,生物,snail girl,蜗牛女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "snail girl",
-            "sub_zh": "蜗牛女孩",
-            "sub_desc": "头部有一组或多组触手状触角和蛞蝓状躯干。不应与昆虫女孩(insect girl)混淆。 需要魔物娘(monster girl)标签。"
-        },
-        "Creature:snake boy": {
-            "search_key": "Creature,生物,snake boy,蛇男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "snake boy",
-            "sub_zh": "蛇男",
-            "sub_desc": "蛇女(snake girl)的男性版本。"
-        },
-        "Creature:snake girl": {
-            "search_key": "Creature,生物,snake girl,蛇女",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "snake girl",
-            "sub_zh": "蛇女",
-            "sub_desc": "蛇和女性的混合体。"
-        },
-        "Creature:spider boy": {
-            "search_key": "Creature,生物,spider boy,蜘蛛男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "spider boy",
-            "sub_zh": "蜘蛛男",
-            "sub_desc": "蜘蛛娘(spider girl)的男性版本。"
-        },
-        "Creature:spider girl": {
-            "search_key": "Creature,生物,spider girl,蜘蛛娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "spider girl",
-            "sub_zh": "蜘蛛娘",
-            "sub_desc": "拥有蜘蛛身体的女性。"
-        },
-        "Creature:squid boy": {
-            "search_key": "Creature,生物,squid boy,乌贼男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "squid boy",
-            "sub_zh": "乌贼男",
-            "sub_desc": "乌贼娘(squid girl)的男性版本。"
-        },
-        "Creature:squid girl": {
-            "search_key": "Creature,生物,squid girl,乌贼娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "squid girl",
-            "sub_zh": "乌贼娘",
-            "sub_desc": "有许多小触角和鱿鱼或章鱼的头部。"
-        },
-        "Creature:squirrel boy": {
-            "search_key": "Creature,生物,squirrel boy,松鼠男",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "squirrel boy",
-            "sub_zh": "松鼠男",
-            "sub_desc": "松鼠娘(squirrel girl)的男性版本。"
-        },
-        "Creature:squirrel girl": {
-            "search_key": "Creature,生物,squirrel girl,松鼠娘",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "squirrel girl",
-            "sub_zh": "松鼠娘",
-            "sub_desc": "松鼠和女性的混合体。"
-        },
-        "Creature:tentacles": {
-            "search_key": "Creature,生物,tentacles,触手",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "tentacles",
-            "sub_zh": "触手",
-            "sub_desc": "用于性目的的长而柔软的卷须。当没有明显的所有者时不应加上怪物(monster)标签。"
-        },
-        "Creature:vampire": {
-            "search_key": "Creature,生物,vampire,吸血鬼🧛‍♂️",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "vampire",
-            "sub_zh": "吸血鬼🧛‍♂️",
-            "sub_desc": "有尖尖的牙齿，饮血为生。"
-        },
-        "Creature:wolf boy": {
-            "search_key": "Creature,生物,wolf boy,狼男孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "wolf boy",
-            "sub_zh": "狼男孩",
-            "sub_desc": "狼女孩(wolf girl)的男性版本。"
-        },
-        "Creature:wolf girl": {
-            "search_key": "Creature,生物,wolf girl,狼女孩",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "wolf girl",
-            "sub_zh": "狼女孩",
-            "sub_desc": "有尖耳朵、浓密的尾巴或狼的其他特征。"
-        },
-        "Creature:yukkuri": {
-            "search_key": "Creature,生物,yukkuri,油库里",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "yukkuri",
-            "sub_zh": "油库里",
-            "sub_desc": "油库里是ゆっくり（日语：慢慢来）的中文谐音。\nゆっくり这种形象其最早于 2008 年初出现在 2ch 上，其创造者为一个失败的 ASCII 艺术爱好者。当时他/她本来希望用 ASCII 字符拼出灵梦和魔理沙的头像，但不幸他/她失败了，头像看起来和这里所提到的ゆっくり很一致。而另一个匿名用户觉得这头像颇有幽默感，于是便做了第一幅有关ゆっくり的图片。\n一般来说，ゆっくり的外形大致上是一个硕大而看上去有点扭曲的脑袋，往往和东方Project(touhou project)中的人物存在对应。"
-        },
-        "Creature:zombie": {
-            "search_key": "Creature,生物,zombie,僵尸🧟‍♂️",
-            "parent_en": "Creature",
-            "parent_zh": "生物",
-            "sub_en": "zombie",
-            "sub_zh": "僵尸🧟‍♂️",
-            "sub_desc": "与僵尸性交。"
-        },
-        "Animal:animal on animal": {
-            "search_key": "Animal,动物,animal on animal,兽兽",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "animal on animal",
-            "sub_zh": "兽兽",
-            "sub_desc": "动物间性交。"
-        },
-        "Animal:animal on furry": {
-            "search_key": "Animal,动物,animal on furry,兽毛",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "animal on furry",
-            "sub_zh": "兽毛",
-            "sub_desc": "动物与毛茸茸(furry)角色间的性行为。"
-        },
-        "Animal:bear": {
-            "search_key": "Animal,动物,bear,熊🐻",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "bear",
-            "sub_zh": "熊🐻",
-            "sub_desc": "任何熊科动物。"
-        },
-        "Animal:bestiality": {
-            "search_key": "Animal,动物,bestiality,兽交",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "bestiality",
-            "sub_zh": "兽交",
-            "sub_desc": "人与动物间的性行为。"
-        },
-        "Animal:bull": {
-            "search_key": "Animal,动物,bull,牛🐂",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "bull",
-            "sub_zh": "牛🐂",
-            "sub_desc": "任何雄性牛科动物。"
-        },
-        "Animal:camel": {
-            "search_key": "Animal,动物,camel,骆驼🐫",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "camel",
-            "sub_zh": "骆驼🐫",
-            "sub_desc": "任何类型的骆驼属动物。"
-        },
-        "Animal:cat": {
-            "search_key": "Animal,动物,cat,猫🐈",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "cat",
-            "sub_zh": "猫🐈",
-            "sub_desc": "任何小型猫科动物。"
-        },
-        "Animal:cow": {
-            "search_key": "Animal,动物,cow,牛🐄",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "cow",
-            "sub_zh": "牛🐄",
-            "sub_desc": "任何雌性牛科动物。"
-        },
-        "Animal:crab": {
-            "search_key": "Animal,动物,crab,螃蟹🦀",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "crab",
-            "sub_zh": "螃蟹🦀",
-            "sub_desc": "任何有壳的甲壳动物。"
-        },
-        "Animal:deer": {
-            "search_key": "Animal,动物,deer,鹿🦌",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "deer",
-            "sub_zh": "鹿🦌",
-            "sub_desc": "任何类型的鹿。"
-        },
-        "Animal:dinosaur": {
-            "search_key": "Animal,动物,dinosaur,恐龙🦖",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "dinosaur",
-            "sub_zh": "恐龙🦖",
-            "sub_desc": "任何恐龙进化枝的动物。"
-        },
-        "Animal:dog": {
-            "search_key": "Animal,动物,dog,狗🐕",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "dog",
-            "sub_zh": "狗🐕",
-            "sub_desc": "任何犬属动物。"
-        },
-        "Animal:dolphin": {
-            "search_key": "Animal,动物,dolphin,海豚🐬",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "dolphin",
-            "sub_zh": "海豚🐬",
-            "sub_desc": "任何小型鲸目哺乳动物。"
-        },
-        "Animal:donkey": {
-            "search_key": "Animal,动物,donkey,驴",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "donkey",
-            "sub_zh": "驴",
-            "sub_desc": "任何驴亚属动物。"
-        },
-        "Animal:dragon": {
-            "search_key": "Animal,动物,dragon,龙🐉",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "dragon",
-            "sub_zh": "龙🐉",
-            "sub_desc": "神话中的有翼爬行动物。"
-        },
-        "Animal:eel": {
-            "search_key": "Animal,动物,eel,鳗鱼",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "eel",
-            "sub_zh": "鳗鱼",
-            "sub_desc": "任何扁平细长的鱼类。"
-        },
-        "Animal:elephant": {
-            "search_key": "Animal,动物,elephant,象🐘",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "elephant",
-            "sub_zh": "象🐘",
-            "sub_desc": "拥有四条粗蹄和象牙的大型哺乳动物。"
-        },
-        "Animal:fish": {
-            "search_key": "Animal,动物,fish,鱼🐟",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "fish",
-            "sub_zh": "鱼🐟",
-            "sub_desc": "任何非细长的水生无肢动物。"
-        },
-        "Animal:fox": {
-            "search_key": "Animal,动物,fox,狐狸🦊",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "fox",
-            "sub_zh": "狐狸🦊",
-            "sub_desc": "任何犬科动物。"
-        },
-        "Animal:frog": {
-            "search_key": "Animal,动物,frog,青蛙🐸",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "frog",
-            "sub_zh": "青蛙🐸",
-            "sub_desc": "任何无尾目动物。"
-        },
-        "Animal:goat": {
-            "search_key": "Animal,动物,goat,山羊🐐",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "goat",
-            "sub_zh": "山羊🐐",
-            "sub_desc": "任何山羊属动物。"
-        },
-        "Animal:gorilla": {
-            "search_key": "Animal,动物,gorilla,猩猩🦍",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "gorilla",
-            "sub_zh": "猩猩🦍",
-            "sub_desc": "任何大型灵长目动物。"
-        },
-        "Animal:horse": {
-            "search_key": "Animal,动物,horse,马🐎",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "horse",
-            "sub_zh": "马🐎",
-            "sub_desc": "任何无条纹的马属动物。"
-        },
-        "Animal:insect": {
-            "search_key": "Animal,动物,insect,昆虫🐜",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "insect",
-            "sub_zh": "昆虫🐜",
-            "sub_desc": "任何陆生无脊椎动物。"
-        },
-        "Animal:kangaroo": {
-            "search_key": "Animal,动物,kangaroo,袋鼠",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "kangaroo",
-            "sub_zh": "袋鼠",
-            "sub_desc": "任何有袋类动物。"
-        },
-        "Animal:lion": {
-            "search_key": "Animal,动物,lion,狮🦁",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "lion",
-            "sub_zh": "狮🦁",
-            "sub_desc": "任何有蓬松鬃毛的雄性豹属动物。"
-        },
-        "Animal:lioness": {
-            "search_key": "Animal,动物,lioness,狮🦁",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "lioness",
-            "sub_zh": "狮🦁",
-            "sub_desc": "任何雌性豹属动物。"
-        },
-        "Animal:maggot": {
-            "search_key": "Animal,动物,maggot,蛆🐛",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "maggot",
-            "sub_zh": "蛆🐛",
-            "sub_desc": "任何幼体（两栖类、昆虫、刺丝胞动物在变态为蛹或成体之前的状态）动物。"
-        },
-        "Animal:monkey": {
-            "search_key": "Animal,动物,monkey,猴🐒",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "monkey",
-            "sub_zh": "猴🐒",
-            "sub_desc": "任何小型灵长目动物。"
-        },
-        "Animal:mouse": {
-            "search_key": "Animal,动物,mouse,鼠🐀",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "mouse",
-            "sub_zh": "鼠🐀",
-            "sub_desc": "任何啮齿目动物。"
-        },
-        "Animal:octopus": {
-            "search_key": "Animal,动物,octopus,章鱼🐙",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "octopus",
-            "sub_zh": "章鱼🐙",
-            "sub_desc": "任何头足纲动物。"
-        },
-        "Animal:ostrich": {
-            "search_key": "Animal,动物,ostrich,鸵鸟",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "ostrich",
-            "sub_zh": "鸵鸟",
-            "sub_desc": "任何长颈无飞行能力的鸟纲动物。"
-        },
-        "Animal:panther": {
-            "search_key": "Animal,动物,panther,豹🐆",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "panther",
-            "sub_zh": "豹🐆",
-            "sub_desc": "任何美洲狮(Puma concolor)、猎豹(Acinonyx jubatus)或豹(Panthera pardus)。"
-        },
-        "Animal:pegasus": {
-            "search_key": "Animal,动物,pegasus,天马",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "pegasus",
-            "sub_zh": "天马",
-            "sub_desc": "神话中带翅膀的马或独角兽。\n不应与马🐎(horse)或独角兽🦄(unicorn)混淆。不应该被标记在毛茸茸(furry)的角色上。"
-        },
-        "Animal:pig": {
-            "search_key": "Animal,动物,pig,猪🐖",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "pig",
-            "sub_zh": "猪🐖",
-            "sub_desc": "任何猪属动物。"
-        },
-        "Animal:rabbit": {
-            "search_key": "Animal,动物,rabbit,兔🐇",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "rabbit",
-            "sub_zh": "兔🐇",
-            "sub_desc": "任何兔科动物。"
-        },
-        "Animal:reptile": {
-            "search_key": "Animal,动物,reptile,爬虫",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "reptile",
-            "sub_zh": "爬虫",
-            "sub_desc": "任何爬行动物。"
-        },
-        "Animal:rhinoceros": {
-            "search_key": "Animal,动物,rhinoceros,犀牛🦏",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "rhinoceros",
-            "sub_zh": "犀牛🦏",
-            "sub_desc": "任何有角的有蹄类动物。"
-        },
-        "Animal:shark": {
-            "search_key": "Animal,动物,shark,鲨🦈",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "shark",
-            "sub_zh": "鲨🦈",
-            "sub_desc": "任何有软骨骨骼的鱼类。"
-        },
-        "Animal:sheep": {
-            "search_key": "Animal,动物,sheep,绵羊🐏",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "sheep",
-            "sub_zh": "绵羊🐏",
-            "sub_desc": "任何绵羊(Ovis aries)。"
-        },
-        "Animal:slug": {
-            "search_key": "Animal,动物,slug,蛞蝓",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "slug",
-            "sub_zh": "蛞蝓",
-            "sub_desc": "任何腹足软体动物，包括有甲壳的。"
-        },
-        "Animal:snake": {
-            "search_key": "Animal,动物,snake,蛇🐍",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "snake",
-            "sub_zh": "蛇🐍",
-            "sub_desc": "任何蛇亚目动物。"
-        },
-        "Animal:spider": {
-            "search_key": "Animal,动物,spider,蜘蛛🕷",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "spider",
-            "sub_zh": "蜘蛛🕷",
-            "sub_desc": "任何蛛形纲动物。"
-        },
-        "Animal:tiger": {
-            "search_key": "Animal,动物,tiger,虎🐅",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "tiger",
-            "sub_zh": "虎🐅",
-            "sub_desc": "任何虎种动物。"
-        },
-        "Animal:turtle": {
-            "search_key": "Animal,动物,turtle,龟🐢",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "turtle",
-            "sub_zh": "龟🐢",
-            "sub_desc": "任何龟鳖目动物。"
-        },
-        "Animal:unicorn": {
-            "search_key": "Animal,动物,unicorn,独角兽",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "unicorn",
-            "sub_zh": "独角兽",
-            "sub_desc": "英国皇家海军独角兽号航母（HMS Unicorn(I72)）"
-        },
-        "Animal:whale": {
-            "search_key": "Animal,动物,whale,鲸🐋",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "whale",
-            "sub_zh": "鲸🐋",
-            "sub_desc": "任何鲸下目动物。"
-        },
-        "Animal:wolf": {
-            "search_key": "Animal,动物,wolf,狼🐺",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "wolf",
-            "sub_zh": "狼🐺",
-            "sub_desc": "任何灰狼种动物。"
-        },
-        "Animal:worm": {
-            "search_key": "Animal,动物,worm,蠕虫",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "worm",
-            "sub_zh": "蠕虫",
-            "sub_desc": "任何有管状身体且无腿的动物。"
-        },
-        "Animal:zebra": {
-            "search_key": "Animal,动物,zebra,斑马🦓",
-            "parent_en": "Animal",
-            "parent_zh": "动物",
-            "sub_en": "zebra",
-            "sub_zh": "斑马🦓",
-            "sub_desc": "任何有条纹的马属动物。"
         },
         "Height:giant": {
             "search_key": "Height,身高,giant,巨人",
@@ -1853,6 +686,14 @@
             "sub_en": "dark skin",
             "sub_zh": "黑皮",
             "sub_desc": "棕色或黑色的肤色。不应与晒痕(tanlines)混淆。"
+        },
+        "Skin:depth grading": {
+            "search_key": "Skin,皮肤,depth grading,深度分级",
+            "parent_en": "Skin",
+            "parent_zh": "皮肤",
+            "sub_en": "depth grading",
+            "sub_zh": "深度分级",
+            "sub_desc": "在人体上刻下的文字或标记，用于测量插入深度。通常从胯部开始，也可能出现在喉咙或阴茎上。"
         },
         "Skin:freckles": {
             "search_key": "Skin,皮肤,freckles,雀斑",
@@ -2774,6 +1615,14 @@
             "sub_zh": "腋毛",
             "sub_desc": "必须足以形成一个毛球。"
         },
+        "Arms:multiple arms": {
+            "search_key": "Arms,腋窝,multiple arms,多臂",
+            "parent_en": "Arms",
+            "parent_zh": "腋窝",
+            "sub_en": "multiple arms",
+            "sub_zh": "多臂",
+            "sub_desc": "一个人拥有两条以上的手臂。"
+        },
         "Hands:fingering": {
             "search_key": "Hands,手,fingering,指法",
             "parent_en": "Hands",
@@ -3070,13 +1919,13 @@
             "sub_zh": "腹部变形",
             "sub_desc": "固体从腹内向外推压，并出现一个可见突起。通常由大玩具(large insertions)或者大根(big penis)引起。"
         },
-        "Crotch:ball-less shemale": {
-            "search_key": "Crotch,裆部,ball-less shemale,无蛋人妖",
-            "parent_en": "Crotch",
-            "parent_zh": "裆部",
-            "sub_en": "ball-less shemale",
-            "sub_zh": "无蛋人妖",
-            "sub_desc": "一名有阴茎的女性，目视确认没有阴道和睾丸。需要人妖♂(shemale)标签。不应与扶她(futanari)混淆。"
+        "Torso:weight gain": {
+            "search_key": "Torso,躯干,weight gain,体重增加",
+            "parent_en": "Torso",
+            "parent_zh": "躯干",
+            "sub_en": "weight gain",
+            "sub_zh": "体重增加",
+            "sub_desc": "通过摄取食物而变得更胖，极有可能成为胖男人(bbm)。不应与腹部膨胀(inflation)混淆。"
         },
         "Crotch:bike shorts": {
             "search_key": "Crotch,裆部,bike shorts,自行车短裤",
@@ -3117,14 +1966,6 @@
             "sub_en": "diaper",
             "sub_zh": "尿布",
             "sub_desc": "一种用来承接大小便的内衣，往往被婴儿穿戴。经常与返老还童(age regression)、排便💩(scat)、幼稚型(infantilism)或排尿(urination)配对。"
-        },
-        "Crotch:full-packaged futanari": {
-            "search_key": "Crotch,裆部,full-packaged futanari,有蛋扶她",
-            "parent_en": "Crotch",
-            "parent_zh": "裆部",
-            "sub_en": "full-packaged futanari",
-            "sub_zh": "有蛋扶她",
-            "sub_desc": "具有阴茎的女性，并伴有可见的阴道和睾丸。需要扶她(futanari)标签。不应与人妖♂(shemale)混淆。"
         },
         "Crotch:fundoshi": {
             "search_key": "Crotch,裆部,fundoshi,六尺褌",
@@ -3182,14 +2023,6 @@
             "sub_zh": "连续高潮",
             "sub_desc": "参与者在一场中连续达到三次以上的性高潮。"
         },
-        "Crotch:no balls": {
-            "search_key": "Crotch,裆部,no balls,无蛋",
-            "parent_en": "Crotch",
-            "parent_zh": "裆部",
-            "sub_en": "no balls",
-            "sub_zh": "无蛋",
-            "sub_desc": "有阴茎但没有睾丸的男性。不用于只是隐藏睾丸的男性。必须是显而易见的缺少睾丸。不适用于远离生殖器区域的阴茎。触手(tentacles)或阴茎形状的性玩具(sex toys)也不符合。"
-        },
         "Crotch:pantyjob": {
             "search_key": "Crotch,裆部,pantyjob,内裤交",
             "parent_en": "Crotch",
@@ -3245,6 +2078,14 @@
             "sub_en": "balls expansion",
             "sub_zh": "睾丸生长",
             "sub_desc": "睾丸的尺寸增大，可能成为大睾丸(big balls)。"
+        },
+        "Penile:ball-less shemale": {
+            "search_key": "Penile,阴茎,ball-less shemale,无蛋人妖",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "ball-less shemale",
+            "sub_zh": "无蛋人妖",
+            "sub_desc": "一名有阴茎的女性，目视确认没有阴道和睾丸。需要人妖♂(shemale)标签。不应与扶她(futanari)混淆。"
         },
         "Penile:ball sucking": {
             "search_key": "Penile,阴茎,ball sucking,吸球",
@@ -3318,14 +2159,6 @@
             "sub_zh": "屌掴",
             "sub_desc": "用阴茎打人（通常是脸）。"
         },
-        "Penile:cuntboy": {
-            "search_key": "Penile,阴茎,cuntboy,人妖♀",
-            "parent_en": "Penile",
-            "parent_zh": "阴茎",
-            "sub_en": "cuntboy",
-            "sub_zh": "人妖♀",
-            "sub_desc": "有阴道而不是阴茎的男性。男性与人妖♀(cuntboy)间的性行为不应添加男同(yaoi)或纯男性⚣(males only)标签。如果男性拥有阴道和阴茎，请使用扶他(otokofutanari)。"
-        },
         "Penile:dickgirl on dickgirl": {
             "search_key": "Penile,阴茎,dickgirl on dickgirl,扶上扶",
             "parent_en": "Penile",
@@ -3365,6 +2198,14 @@
             "sub_en": "frottage",
             "sub_zh": "阴茎摩擦🤺",
             "sub_desc": "两根及以上的阴茎相互摩擦。"
+        },
+        "Penile:full-packaged futanari": {
+            "search_key": "Penile,阴茎,full-packaged futanari,有蛋扶她",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "full-packaged futanari",
+            "sub_zh": "有蛋扶她",
+            "sub_desc": "具有阴茎的女性，并伴有可见的阴道和睾丸。需要扶她(futanari)标签。不应与人妖♂(shemale)混淆。"
         },
         "Penile:futanari": {
             "search_key": "Penile,阴茎,futanari,扶她",
@@ -3414,6 +2255,14 @@
             "sub_zh": "鸡鸡复鸡鸡",
             "sub_desc": "多于一根阴茎。不用于触手(tentacles)形的阴茎。"
         },
+        "Penile:no balls": {
+            "search_key": "Penile,阴茎,no balls,无蛋",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "no balls",
+            "sub_zh": "无蛋",
+            "sub_desc": "有阴茎但没有睾丸的男性。不用于只是隐藏睾丸的男性。必须是显而易见的缺少睾丸。不适用于远离生殖器区域的阴茎。触手(tentacles)或阴茎形状的性玩具(sex toys)也不符合。"
+        },
         "Penile:penis birth": {
             "search_key": "Penile,阴茎,penis birth,阴茎出产",
             "parent_en": "Penile",
@@ -3422,6 +2271,14 @@
             "sub_zh": "阴茎出产",
             "sub_desc": "通过阴茎产下生物。不用于产卵(eggs)。"
         },
+        "Penile:penis bumps": {
+            "search_key": "Penile,阴茎,penis bumps,阴茎凸起",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "penis bumps",
+            "sub_zh": "阴茎凸起",
+            "sub_desc": "阴茎上的皮肤凸起，通常是通过疣或皮下珠穿孔形成的。"
+        },
         "Penile:penis enlargement": {
             "search_key": "Penile,阴茎,penis enlargement,阴茎生长",
             "parent_en": "Penile",
@@ -3429,6 +2286,14 @@
             "sub_en": "penis enlargement",
             "sub_zh": "阴茎生长",
             "sub_desc": "阴茎异常生长的过程，可能产生大根(big penis)。不应该与正常的勃起混淆，也不适用性转换(gender change)标签。"
+        },
+        "Penile:penis reduction": {
+            "search_key": "Penile,阴茎,penis reduction,阴茎缩小",
+            "parent_en": "Penile",
+            "parent_zh": "阴茎",
+            "sub_en": "penis reduction",
+            "sub_zh": "阴茎缩小",
+            "sub_desc": "阴茎尺寸的任何显著减小。可能导致小小鸟(small penis)。不应与勃起功能障碍混淆。参与者突然完全失去阴茎不算在内。"
         },
         "Penile:phimosis": {
             "search_key": "Penile,阴茎,phimosis,包茎",
@@ -3557,6 +2422,14 @@
             "sub_en": "cunnilingus",
             "sub_zh": "舔阴",
             "sub_desc": "用嘴刺激阴道引起性唤起。"
+        },
+        "Vaginal:cuntboy": {
+            "search_key": "Vaginal,阴道,cuntboy,人妖♀",
+            "parent_en": "Vaginal",
+            "parent_zh": "阴道",
+            "sub_en": "cuntboy",
+            "sub_zh": "人妖♀",
+            "sub_desc": "有阴道而不是阴茎的男性。男性与人妖♀(cuntboy)间的性行为不应添加男同(yaoi)或纯男性⚣(males only)标签。如果男性拥有阴道和阴茎，请使用扶他(otokofutanari)。"
         },
         "Vaginal:cuntbusting": {
             "search_key": "Vaginal,阴道,cuntbusting,阴道破坏",
@@ -3742,6 +2615,14 @@
             "sub_zh": "多重尻交",
             "sub_desc": "多个阴茎参与的尻交。需要尻交(assjob)标签。"
         },
+        "Buttocks:multiple tails": {
+            "search_key": "Buttocks,臀部,multiple tails,多重",
+            "parent_en": "Buttocks",
+            "parent_zh": "臀部",
+            "sub_en": "multiple tails",
+            "sub_zh": "多重",
+            "sub_desc": "拥有多于一条尾巴。尾巴应从身体上长出。单个尾巴分裂出多个尾巴尖不符合条件，除非是在靠近尾巴根的地方分裂。需要毛茸茸(furry)或尾巴(tail)标签。"
+        },
         "Buttocks:pegging": {
             "search_key": "Buttocks,臀部,pegging,爆菊",
             "parent_en": "Buttocks",
@@ -3781,6 +2662,14 @@
             "sub_en": "tail",
             "sub_zh": "尾巴",
             "sub_desc": "一个突出的灵活附肢，是身体的一部分，通常从躯干的后部突出。不适用于没有腿的身体。"
+        },
+        "Buttocks:tailjob": {
+            "search_key": "Buttocks,臀部,tailjob,尾交",
+            "parent_en": "Buttocks",
+            "parent_zh": "臀部",
+            "sub_en": "tailjob",
+            "sub_zh": "尾交",
+            "sub_desc": "用尾巴模拟性器官。"
         },
         "Buttocks:tail plug": {
             "search_key": "Buttocks,臀部,tail plug,尾塞",
@@ -4013,6 +2902,1246 @@
             "sub_en": "thigh high boots",
             "sub_zh": "高筒靴",
             "sub_desc": "高过膝盖的靴子。不应与长筒袜(stockings)混淆。"
+        },
+        "Creature:alien": {
+            "search_key": "Creature,生物,alien,外星人👽",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "alien",
+            "sub_zh": "外星人👽",
+            "sub_desc": "具有外星生物特征的男性。"
+        },
+        "Creature:alien girl": {
+            "search_key": "Creature,生物,alien girl,外星女👽",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "alien girl",
+            "sub_zh": "外星女👽",
+            "sub_desc": "具有外星生物特征的女性。"
+        },
+        "Creature:angel": {
+            "search_key": "Creature,生物,angel,天使",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "angel",
+            "sub_zh": "天使",
+            "sub_desc": "拥有天使的翅膀或光环。"
+        },
+        "Creature:bat boy": {
+            "search_key": "Creature,生物,bat boy,蝙蝠男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bat boy",
+            "sub_zh": "蝙蝠男",
+            "sub_desc": "蝙蝠娘(bat girl)的男性版本。"
+        },
+        "Creature:bat girl": {
+            "search_key": "Creature,生物,bat girl,蝙蝠娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bat girl",
+            "sub_zh": "蝙蝠娘",
+            "sub_desc": "雌性类人动物，具翅膀，耳朵，有时还有尾巴或蝙蝠的其他显着特征。"
+        },
+        "Creature:bear boy": {
+            "search_key": "Creature,生物,bear boy,狗熊男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bear boy",
+            "sub_zh": "狗熊男",
+            "sub_desc": "有圆形耳朵和其他熊的特征的男性。"
+        },
+        "Creature:bear girl": {
+            "search_key": "Creature,生物,bear girl,狗熊娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bear girl",
+            "sub_zh": "狗熊娘",
+            "sub_desc": "有圆形耳朵和其他熊的特征的女性。不应与熊猫娘(panda girl)混淆。"
+        },
+        "Creature:bee boy": {
+            "search_key": "Creature,生物,bee boy,蜂男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bee boy",
+            "sub_zh": "蜂男",
+            "sub_desc": "蜂女(bee girl)的男性版本。"
+        },
+        "Creature:bee girl": {
+            "search_key": "Creature,生物,bee girl,蜂女",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bee girl",
+            "sub_zh": "蜂女",
+            "sub_desc": "具有蜜蜂特征的女性。"
+        },
+        "Creature:bird boy": {
+            "search_key": "Creature,生物,bird boy,鸟男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bird boy",
+            "sub_zh": "鸟男",
+            "sub_desc": "鸟娘(bird girl)的男性版本。"
+        },
+        "Creature:bird girl": {
+            "search_key": "Creature,生物,bird girl,鸟娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bird girl",
+            "sub_zh": "鸟娘",
+            "sub_desc": "鸟与人类的混合体，几乎全身覆盖羽毛；通常有翅膀、喙和其他鸟类特征。需要毛茸茸(furry)标签。不应与鸟人(harpy)混淆。"
+        },
+        "Creature:bunny boy": {
+            "search_key": "Creature,生物,bunny boy,兔子男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bunny boy",
+            "sub_zh": "兔子男孩",
+            "sub_desc": "兔女郎(bunny girl)的男性版本。"
+        },
+        "Creature:bunny girl": {
+            "search_key": "Creature,生物,bunny girl,兔女郎",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "bunny girl",
+            "sub_zh": "兔女郎",
+            "sub_desc": "兔耳朵，偶尔也有一个蓬松的尾巴。"
+        },
+        "Creature:catboy": {
+            "search_key": "Creature,生物,catboy,猫男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "catboy",
+            "sub_zh": "猫男",
+            "sub_desc": "猫女(catgirl)的男性版本。"
+        },
+        "Creature:catgirl": {
+            "search_key": "Creature,生物,catgirl,猫女",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "catgirl",
+            "sub_zh": "猫女",
+            "sub_desc": "有猫耳，可能有猫尾或其他猫的特征。"
+        },
+        "Creature:centaur": {
+            "search_key": "Creature,生物,centaur,半人马",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "centaur",
+            "sub_zh": "半人马",
+            "sub_desc": "一半是人，一半是马。"
+        },
+        "Creature:corpse": {
+            "search_key": "Creature,生物,corpse,尸体",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "corpse",
+            "sub_zh": "尸体",
+            "sub_desc": "一具死尸。尸体本身不需要具有恋物特征（例如裸体）。不应用于僵尸🧟‍♂️(zombie)。奸尸(necrophilia)需要此标签。不需要杀害(snuff)标签，杀害(snuff)标签要求参与者明显被杀害。"
+        },
+        "Creature:cowgirl": {
+            "search_key": "Creature,生物,cowgirl,牛女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "cowgirl",
+            "sub_zh": "牛女孩",
+            "sub_desc": "有牛的特征（如耳朵、牛角、牛铃和尾巴）的女孩，常与巨乳配对。"
+        },
+        "Creature:cowman": {
+            "search_key": "Creature,生物,cowman,牛男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "cowman",
+            "sub_zh": "牛男",
+            "sub_desc": "牛女孩(cowgirl)的男性版本，不要与牛🐂(bull)混淆。"
+        },
+        "Creature:deer boy": {
+            "search_key": "Creature,生物,deer boy,鹿男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "deer boy",
+            "sub_zh": "鹿男孩",
+            "sub_desc": "鹿女孩(deer girl)的男性版本。"
+        },
+        "Creature:deer girl": {
+            "search_key": "Creature,生物,deer girl,鹿女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "deer girl",
+            "sub_zh": "鹿女孩",
+            "sub_desc": "有鹿或驯鹿的尾巴和角的女性。男性版本见鹿男孩(deer boy)。"
+        },
+        "Creature:demon": {
+            "search_key": "Creature,生物,demon,恶魔",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "demon",
+            "sub_zh": "恶魔",
+            "sub_desc": "男性恶魔或者具有较强恶魔般外观的人形生物（翅膀，角，尖尾，皮肤异色等）。不能与恶魔女孩(demon girl)或鬼(oni)标签混淆。恶魔不应该被标记为怪物(monster)。只有恶魔翅膀，但没有其他的恶魔特征的角色仅限定为翅膀(wings)标签。"
+        },
+        "Creature:demon girl": {
+            "search_key": "Creature,生物,demon girl,恶魔女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "demon girl",
+            "sub_zh": "恶魔女孩",
+            "sub_desc": "女性恶魔或者具有较强恶魔般外观的人形生物（翅膀，角，尖尾，皮肤异色等）。不能与恶魔(demon)或鬼(oni)标签混淆。恶魔女孩不应该被标记为魔物娘(monster girl)。只有恶魔翅膀，但没有其他的恶魔特征的角色仅限定为翅膀(wings)标签。"
+        },
+        "Creature:dog boy": {
+            "search_key": "Creature,生物,dog boy,狗男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "dog boy",
+            "sub_zh": "狗男孩",
+            "sub_desc": "狗女孩(dog girl)的男性版本。"
+        },
+        "Creature:dog girl": {
+            "search_key": "Creature,生物,dog girl,狗女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "dog girl",
+            "sub_zh": "狗女孩",
+            "sub_desc": "有狗耳朵或狗尾巴的女性。"
+        },
+        "Creature:draenei": {
+            "search_key": "Creature,生物,draenei,德莱尼",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "draenei",
+            "sub_zh": "德莱尼",
+            "sub_desc": "魔兽世界(world of warcraft)的恶魔人形生物。有蓝色的皮肤与蹄和发光的眼睛。"
+        },
+        "Creature:elephant boy": {
+            "search_key": "Creature,生物,elephant boy,象男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "elephant boy",
+            "sub_zh": "象男孩",
+            "sub_desc": "象女孩(elephant girl)的男性版本。"
+        },
+        "Creature:elephant girl": {
+            "search_key": "Creature,生物,elephant girl,象女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "elephant girl",
+            "sub_zh": "象女孩",
+            "sub_desc": "具有象鼻或象耳的雌性，可能还有其他大象或猛犸象的特征，例如象牙。男性版本见象男孩(elephant boy)。"
+        },
+        "Creature:fairy": {
+            "search_key": "Creature,生物,fairy,仙子🧚‍♂️",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "fairy",
+            "sub_zh": "仙子🧚‍♂️",
+            "sub_desc": "有翅膀的人或其他生物，往往体型很小。"
+        },
+        "Creature:fox boy": {
+            "search_key": "Creature,生物,fox boy,狐男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "fox boy",
+            "sub_zh": "狐男",
+            "sub_desc": "狐女(fox girl)的男性版本。"
+        },
+        "Creature:fox girl": {
+            "search_key": "Creature,生物,fox girl,狐女",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "fox girl",
+            "sub_zh": "狐女",
+            "sub_desc": "有狐狸耳朵和尾巴的女孩。"
+        },
+        "Creature:frog boy": {
+            "search_key": "Creature,生物,frog boy,青蛙男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "frog boy",
+            "sub_zh": "青蛙男孩",
+            "sub_desc": "青蛙女孩(frog girl)的男性版本。"
+        },
+        "Creature:frog girl": {
+            "search_key": "Creature,生物,frog girl,青蛙女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "frog girl",
+            "sub_zh": "青蛙女孩",
+            "sub_desc": "身材矮小，皮肤光滑，长爬行动物附肢的女性。可能有长舌👅(long tongue)。"
+        },
+        "Creature:furry": {
+            "search_key": "Creature,生物,furry,毛茸茸",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "furry",
+            "sub_zh": "毛茸茸",
+            "sub_desc": "拟人化的动物角色，具有人的个性与特点。"
+        },
+        "Creature:ghost": {
+            "search_key": "Creature,生物,ghost,幽灵👻",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "ghost",
+            "sub_zh": "幽灵👻",
+            "sub_desc": "与非物质的存在性交。"
+        },
+        "Creature:giraffe boy": {
+            "search_key": "Creature,生物,giraffe boy,长颈鹿男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "giraffe boy",
+            "sub_zh": "长颈鹿男",
+            "sub_desc": "长颈鹿娘(giraffe girl)的男性版本。"
+        },
+        "Creature:giraffe girl": {
+            "search_key": "Creature,生物,giraffe girl,长颈鹿娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "giraffe girl",
+            "sub_zh": "长颈鹿娘",
+            "sub_desc": "有长颈鹿的耳朵和尾巴的女孩，通常在衣服或毛皮上有黄色和棕色斑点。可能有长脖子。"
+        },
+        "Creature:goblin": {
+            "search_key": "Creature,生物,goblin,哥布林",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "goblin",
+            "sub_zh": "哥布林",
+            "sub_desc": "幻想生物，通常身高约为正常人的1/2至3/4。 通常有厚鼻子，尖耳朵，大嘴和小而锋利的牙齿。"
+        },
+        "Creature:harpy": {
+            "search_key": "Creature,生物,harpy,鸟人",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "harpy",
+            "sub_zh": "鸟人",
+            "sub_desc": "鸟与人类的混合体。"
+        },
+        "Creature:horse boy": {
+            "search_key": "Creature,生物,horse boy,马男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "horse boy",
+            "sub_zh": "马男孩",
+            "sub_desc": "马女孩(horse girl)的男性版本。"
+        },
+        "Creature:horse girl": {
+            "search_key": "Creature,生物,horse girl,马女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "horse girl",
+            "sub_zh": "马女孩",
+            "sub_desc": "拥有马尾或其他马的特征的女性。"
+        },
+        "Creature:human on furry": {
+            "search_key": "Creature,生物,human on furry,人毛",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "human on furry",
+            "sub_zh": "人毛",
+            "sub_desc": "人与毛茸茸(furry)角色间的性行为。"
+        },
+        "Creature:hyena boy": {
+            "search_key": "Creature,生物,hyena boy,鬣狗男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "hyena boy",
+            "sub_zh": "鬣狗男孩",
+            "sub_desc": "具有鬣狗特征的女性类人生物，例如大圆/尖耳朵和半厚毛尾巴。通常被描绘为具有条状或点状的皮毛或更深色的四肢。不应与鬣狗女孩(dog girl)混淆。"
+        },
+        "Creature:hyena girl": {
+            "search_key": "Creature,生物,hyena girl,鬣狗女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "hyena girl",
+            "sub_zh": "鬣狗女孩",
+            "sub_desc": "鬣狗男孩(hyena boy)的女性版本。"
+        },
+        "Creature:insect boy": {
+            "search_key": "Creature,生物,insect boy,昆虫男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "insect boy",
+            "sub_zh": "昆虫男孩",
+            "sub_desc": "昆虫女孩(insect girl)的男性版本。"
+        },
+        "Creature:insect girl": {
+            "search_key": "Creature,生物,insect girl,昆虫女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "insect girl",
+            "sub_zh": "昆虫女孩",
+            "sub_desc": "有触角，往往有一个壳或甲壳躯干。"
+        },
+        "Creature:kangaroo boy": {
+            "search_key": "Creature,生物,kangaroo boy,袋鼠男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "kangaroo boy",
+            "sub_zh": "袋鼠男孩",
+            "sub_desc": "袋鼠男孩(kangaroo girl)的男性版本。"
+        },
+        "Creature:kangaroo girl‎": {
+            "search_key": "Creature,生物,kangaroo girl‎,袋鼠女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "kangaroo girl‎",
+            "sub_zh": "袋鼠女孩",
+            "sub_desc": "一个女性角色，具有长长的耳朵、粗壮而长的尾巴，以及可能还有其他袋鼠的特征。"
+        },
+        "Creature:kappa": {
+            "search_key": "Creature,生物,kappa,河童",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "kappa",
+            "sub_zh": "河童",
+            "sub_desc": "日本民间想象中的动物、水中的妖怪。喜食黄瓜。由水神沦落而变成妖怪。"
+        },
+        "Creature:kemonomimi": {
+            "search_key": "Creature,生物,kemonomimi,兽耳",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "kemonomimi",
+            "sub_zh": "兽耳",
+            "sub_desc": "有动物耳朵的角色，有时还有一条尾巴。不应与毛茸茸(furry)混淆。"
+        },
+        "Creature:lizard girl": {
+            "search_key": "Creature,生物,lizard girl,蜥蜴女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "lizard girl",
+            "sub_zh": "蜥蜴女孩",
+            "sub_desc": "有爬行动物的鳞片和尾巴的女孩。"
+        },
+        "Creature:lizard guy": {
+            "search_key": "Creature,生物,lizard guy,蜥蜴男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "lizard guy",
+            "sub_zh": "蜥蜴男孩",
+            "sub_desc": "蜥蜴女孩(lizard girl)的男性版本。"
+        },
+        "Creature:mermaid": {
+            "search_key": "Creature,生物,mermaid,美人鱼🧜‍♀️",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "mermaid",
+            "sub_zh": "美人鱼🧜‍♀️",
+            "sub_desc": "上半身是人，下半身是鱼。"
+        },
+        "Creature:merman": {
+            "search_key": "Creature,生物,merman,人鱼🧜‍♂️",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "merman",
+            "sub_zh": "人鱼🧜‍♂️",
+            "sub_desc": "美人鱼🧜‍♀️(mermaid)的男性版本。"
+        },
+        "Creature:minotaur": {
+            "search_key": "Creature,生物,minotaur,牛头人",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "minotaur",
+            "sub_zh": "牛头人",
+            "sub_desc": "弥诺陶洛斯（古希腊语：Μῑνώταυρος，字面意思为“弥诺斯的牛”），希腊神话中一个著名的半人半牛怪物。"
+        },
+        "Creature:monkey boy": {
+            "search_key": "Creature,生物,monkey boy,猴男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "monkey boy",
+            "sub_zh": "猴男孩",
+            "sub_desc": "猴女孩(monkey girl)的男性版本。"
+        },
+        "Creature:monkey girl": {
+            "search_key": "Creature,生物,monkey girl,猴女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "monkey girl",
+            "sub_zh": "猴女孩",
+            "sub_desc": "有猴子的耳朵，通常也有猴子的尾巴或其他特征。"
+        },
+        "Creature:monoeye": {
+            "search_key": "Creature,生物,monoeye,独眼",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "monoeye",
+            "sub_zh": "独眼",
+            "sub_desc": "一个单眼的人形角色。 一个双眼的人物因为任何原因失去了眼睛（除了变身(transformation)）不符合条件。需要怪物(monster)或外星人👽(alien)标签。"
+        },
+        "Creature:monster": {
+            "search_key": "Creature,生物,monster,怪物",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "monster",
+            "sub_zh": "怪物",
+            "sub_desc": "MONSTER（モンスター）/  魔刹"
+        },
+        "Creature:monster girl": {
+            "search_key": "Creature,生物,monster girl,魔物娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "monster girl",
+            "sub_zh": "魔物娘",
+            "sub_desc": "怪物(monster)的女性版本。"
+        },
+        "Creature:moth boy": {
+            "search_key": "Creature,生物,moth boy,蛾男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "moth boy",
+            "sub_zh": "蛾男",
+            "sub_desc": "一个具有蛾子特征的男性类人，包括羽毛状的触角。常见特征还包括颈部或身体其他部位的毛发，以及深色的巩膜。需要昆虫男孩(insect boy)标签。"
+        },
+        "Creature:moth girl": {
+            "search_key": "Creature,生物,moth girl,蛾娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "moth girl",
+            "sub_zh": "蛾娘",
+            "sub_desc": "一个具有蛾子特征的女性类人，包括羽毛状的触角。常见特征还包括颈部或身体其他部位的毛发，以及深色的巩膜。需要昆虫女孩(insect girl)标签。"
+        },
+        "Creature:mouse boy": {
+            "search_key": "Creature,生物,mouse boy,鼠男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "mouse boy",
+            "sub_zh": "鼠男孩",
+            "sub_desc": "鼠女孩(mouse girl)的男性版本。"
+        },
+        "Creature:mouse girl": {
+            "search_key": "Creature,生物,mouse girl,鼠女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "mouse girl",
+            "sub_zh": "鼠女孩",
+            "sub_desc": "特征是圆形的鼠耳朵和类似啮齿动物的尾巴。一般喜欢奶酪。"
+        },
+        "Creature:necrophilia": {
+            "search_key": "Creature,生物,necrophilia,奸尸",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "necrophilia",
+            "sub_zh": "奸尸",
+            "sub_desc": "涉及尸体的性行为。"
+        },
+        "Creature:oni": {
+            "search_key": "Creature,生物,oni,鬼",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "oni",
+            "sub_zh": "鬼",
+            "sub_desc": "人形生物，他们的头上有1-2个角，并可能长有尖尖的耳朵。没有翅膀或尾巴。不应与恶魔(demon)混淆。"
+        },
+        "Creature:orc": {
+            "search_key": "Creature,生物,orc,兽人",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "orc",
+            "sub_zh": "兽人",
+            "sub_desc": "幻想的生物，与人一样高或比人高一点。 通常有倾斜的额头，突出的下巴，突出的牙齿和粗糙的头发。"
+        },
+        "Creature:otter boy": {
+            "search_key": "Creature,生物,otter boy,水獭男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "otter boy",
+            "sub_zh": "水獭男孩",
+            "sub_desc": "水獭女孩(otter girl)的男性版本。"
+        },
+        "Creature:otter girl": {
+            "search_key": "Creature,生物,otter girl,水獭女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "otter girl",
+            "sub_zh": "水獭女孩",
+            "sub_desc": "雌性，具有长矛状长尾，圆耳朵和水獭的其他特征。 鼻口、颈部和躯干通常颜色较浅。"
+        },
+        "Creature:panda boy": {
+            "search_key": "Creature,生物,panda boy,熊猫男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "panda boy",
+            "sub_zh": "熊猫男",
+            "sub_desc": "熊猫娘(panda girl)的男性版本。"
+        },
+        "Creature:panda girl": {
+            "search_key": "Creature,生物,panda girl,熊猫娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "panda girl",
+            "sub_zh": "熊猫娘",
+            "sub_desc": "圆形耳朵、眼睛周围的黑色斑块以及身体其他部位的特征。"
+        },
+        "Creature:pig girl": {
+            "search_key": "Creature,生物,pig girl,猪女",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "pig girl",
+            "sub_zh": "猪女",
+            "sub_desc": "有猪耳朵、猪鼻、猪尾或猪的其他特征。"
+        },
+        "Creature:pig man": {
+            "search_key": "Creature,生物,pig man,猪男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "pig man",
+            "sub_zh": "猪男",
+            "sub_desc": "猪女(pig girl)的男性版本。"
+        },
+        "Creature:plant boy": {
+            "search_key": "Creature,生物,plant boy,植物男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "plant boy",
+            "sub_zh": "植物男孩",
+            "sub_desc": "植物女孩(plant girl)的男性版本。需要怪物(monster)标签。"
+        },
+        "Creature:plant girl": {
+            "search_key": "Creature,生物,plant girl,植物女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "plant girl",
+            "sub_zh": "植物女孩",
+            "sub_desc": "女性的植物-人类混合体。需要魔物娘(monster girl)标签。"
+        },
+        "Creature:raccoon boy": {
+            "search_key": "Creature,生物,raccoon boy,浣熊男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "raccoon boy",
+            "sub_zh": "浣熊男孩",
+            "sub_desc": "浣熊女孩(raccoon girl)的男性版本。"
+        },
+        "Creature:raccoon girl": {
+            "search_key": "Creature,生物,raccoon girl,浣熊女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "raccoon girl",
+            "sub_zh": "浣熊女孩",
+            "sub_desc": "拥有耳朵、尾巴及其他浣熊的特征。"
+        },
+        "Creature:rhinoceros boy": {
+            "search_key": "Creature,生物,rhinoceros boy,犀牛男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "rhinoceros boy",
+            "sub_zh": "犀牛男孩",
+            "sub_desc": "犀牛女孩(rhinoceros girl)的男性版本。"
+        },
+        "Creature:rhinoceros girl": {
+            "search_key": "Creature,生物,rhinoceros girl,犀牛女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "rhinoceros girl",
+            "sub_zh": "犀牛女孩",
+            "sub_desc": "拥有犀牛特征的女性角色，例如鼻子上有一个或多个角、漏斗状的耳朵，以及尾部末端有毛簇的尾巴等。"
+        },
+        "Creature:robot": {
+            "search_key": "Creature,生物,robot,机器人🤖",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "robot",
+            "sub_zh": "机器人🤖",
+            "sub_desc": "机械的人形。"
+        },
+        "Creature:shark boy": {
+            "search_key": "Creature,生物,shark boy,鲨男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "shark boy",
+            "sub_zh": "鲨男孩",
+            "sub_desc": "鲨女孩(shark girl)的男性版本。"
+        },
+        "Creature:shark girl": {
+            "search_key": "Creature,生物,shark girl,鲨女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "shark girl",
+            "sub_zh": "鲨女孩",
+            "sub_desc": "一个尾巴是尾鳍而不是身体下部的女性。 通常也有锋利的牙齿。"
+        },
+        "Creature:sheep boy": {
+            "search_key": "Creature,生物,sheep boy,羊男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "sheep boy",
+            "sub_zh": "羊男孩",
+            "sub_desc": "羊女孩(sheep girl)的男性版本。"
+        },
+        "Creature:sheep girl": {
+            "search_key": "Creature,生物,sheep girl,羊女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "sheep girl",
+            "sub_zh": "羊女孩",
+            "sub_desc": "有羊毛和羊角的女性。"
+        },
+        "Creature:skeleton": {
+            "search_key": "Creature,生物,skeleton,骷髅",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "skeleton",
+            "sub_zh": "骷髅",
+            "sub_desc": "一种身体由骨骼构成，几乎没有皮肤的生物。也可能包括头部。需要使用怪物(monster)或魔物娘(monster gril)标签。不应用与透视(x-ray)。不应与僵尸🧟‍♂️(zombie)或奸尸(necrophilia)混淆。"
+        },
+        "Creature:skunk boy": {
+            "search_key": "Creature,生物,skunk boy,臭鼬男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "skunk boy",
+            "sub_zh": "臭鼬男",
+            "sub_desc": "臭鼬娘(skunk girl)的男性版本。"
+        },
+        "Creature:skunk girl": {
+            "search_key": "Creature,生物,skunk girl,臭鼬娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "skunk girl",
+            "sub_zh": "臭鼬娘",
+            "sub_desc": "有臭鼬尾巴或其他特征的女性。"
+        },
+        "Creature:slime": {
+            "search_key": "Creature,生物,slime,史莱姆",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "slime",
+            "sub_zh": "史莱姆",
+            "sub_desc": "任何涉及性的粘液/凝胶状物质。基于史莱姆的生物需要此标签和怪物(monster)标签。"
+        },
+        "Creature:slime boy": {
+            "search_key": "Creature,生物,slime boy,史莱姆男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "slime boy",
+            "sub_zh": "史莱姆男孩",
+            "sub_desc": "身体由粘性物体组成的男性。不得与史莱姆(slime)混淆。"
+        },
+        "Creature:slime girl": {
+            "search_key": "Creature,生物,slime girl,史莱姆女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "slime girl",
+            "sub_zh": "史莱姆女孩",
+            "sub_desc": "身体由粘性物体组成的女性。不得与史莱姆(slime)混淆。"
+        },
+        "Creature:snail girl": {
+            "search_key": "Creature,生物,snail girl,蜗牛女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "snail girl",
+            "sub_zh": "蜗牛女孩",
+            "sub_desc": "头部有一组或多组触手状触角和蛞蝓状躯干。不应与昆虫女孩(insect girl)混淆。 需要魔物娘(monster girl)标签。"
+        },
+        "Creature:snake boy": {
+            "search_key": "Creature,生物,snake boy,蛇男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "snake boy",
+            "sub_zh": "蛇男",
+            "sub_desc": "蛇女(snake girl)的男性版本。"
+        },
+        "Creature:snake girl": {
+            "search_key": "Creature,生物,snake girl,蛇女",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "snake girl",
+            "sub_zh": "蛇女",
+            "sub_desc": "蛇和女性的混合体。"
+        },
+        "Creature:spider boy": {
+            "search_key": "Creature,生物,spider boy,蜘蛛男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "spider boy",
+            "sub_zh": "蜘蛛男",
+            "sub_desc": "蜘蛛娘(spider girl)的男性版本。"
+        },
+        "Creature:spider girl": {
+            "search_key": "Creature,生物,spider girl,蜘蛛娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "spider girl",
+            "sub_zh": "蜘蛛娘",
+            "sub_desc": "拥有蜘蛛身体的女性。"
+        },
+        "Creature:squid boy": {
+            "search_key": "Creature,生物,squid boy,乌贼男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "squid boy",
+            "sub_zh": "乌贼男",
+            "sub_desc": "乌贼娘(squid girl)的男性版本。"
+        },
+        "Creature:squid girl": {
+            "search_key": "Creature,生物,squid girl,乌贼娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "squid girl",
+            "sub_zh": "乌贼娘",
+            "sub_desc": "有许多小触角和鱿鱼或章鱼的头部。"
+        },
+        "Creature:squirrel boy": {
+            "search_key": "Creature,生物,squirrel boy,松鼠男",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "squirrel boy",
+            "sub_zh": "松鼠男",
+            "sub_desc": "松鼠娘(squirrel girl)的男性版本。"
+        },
+        "Creature:squirrel girl": {
+            "search_key": "Creature,生物,squirrel girl,松鼠娘",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "squirrel girl",
+            "sub_zh": "松鼠娘",
+            "sub_desc": "松鼠和女性的混合体。"
+        },
+        "Creature:tentacles": {
+            "search_key": "Creature,生物,tentacles,触手",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "tentacles",
+            "sub_zh": "触手",
+            "sub_desc": "用于性目的的长而柔软的卷须。当没有明显的所有者时不应加上怪物(monster)标签。"
+        },
+        "Creature:vampire": {
+            "search_key": "Creature,生物,vampire,吸血鬼🧛‍♂️",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "vampire",
+            "sub_zh": "吸血鬼🧛‍♂️",
+            "sub_desc": "有尖尖的牙齿，饮血为生。"
+        },
+        "Creature:wolf boy": {
+            "search_key": "Creature,生物,wolf boy,狼男孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "wolf boy",
+            "sub_zh": "狼男孩",
+            "sub_desc": "狼女孩(wolf girl)的男性版本。"
+        },
+        "Creature:wolf girl": {
+            "search_key": "Creature,生物,wolf girl,狼女孩",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "wolf girl",
+            "sub_zh": "狼女孩",
+            "sub_desc": "有尖耳朵、浓密的尾巴或狼的其他特征。"
+        },
+        "Creature:yukkuri": {
+            "search_key": "Creature,生物,yukkuri,油库里",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "yukkuri",
+            "sub_zh": "油库里",
+            "sub_desc": "油库里是ゆっくり（日语：慢慢来）的中文谐音。\nゆっくり这种形象其最早于 2008 年初出现在 2ch 上，其创造者为一个失败的 ASCII 艺术爱好者。当时他/她本来希望用 ASCII 字符拼出灵梦和魔理沙的头像，但不幸他/她失败了，头像看起来和这里所提到的ゆっくり很一致。而另一个匿名用户觉得这头像颇有幽默感，于是便做了第一幅有关ゆっくり的图片。\n一般来说，ゆっくり的外形大致上是一个硕大而看上去有点扭曲的脑袋，往往和东方Project(touhou project)中的人物存在对应。"
+        },
+        "Creature:zombie": {
+            "search_key": "Creature,生物,zombie,僵尸🧟‍♂️",
+            "parent_en": "Creature",
+            "parent_zh": "生物",
+            "sub_en": "zombie",
+            "sub_zh": "僵尸🧟‍♂️",
+            "sub_desc": "与僵尸性交。"
+        },
+        "Animal:animal on animal": {
+            "search_key": "Animal,动物,animal on animal,兽兽",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "animal on animal",
+            "sub_zh": "兽兽",
+            "sub_desc": "动物间性交。"
+        },
+        "Animal:animal on furry": {
+            "search_key": "Animal,动物,animal on furry,兽毛",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "animal on furry",
+            "sub_zh": "兽毛",
+            "sub_desc": "动物与毛茸茸(furry)角色间的性行为。"
+        },
+        "Animal:bear": {
+            "search_key": "Animal,动物,bear,熊🐻",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "bear",
+            "sub_zh": "熊🐻",
+            "sub_desc": "任何熊科动物。"
+        },
+        "Animal:bestiality": {
+            "search_key": "Animal,动物,bestiality,兽交",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "bestiality",
+            "sub_zh": "兽交",
+            "sub_desc": "人与动物间的性行为。"
+        },
+        "Animal:bull": {
+            "search_key": "Animal,动物,bull,牛🐂",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "bull",
+            "sub_zh": "牛🐂",
+            "sub_desc": "任何雄性牛科动物。"
+        },
+        "Animal:camel": {
+            "search_key": "Animal,动物,camel,骆驼🐫",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "camel",
+            "sub_zh": "骆驼🐫",
+            "sub_desc": "任何类型的骆驼属动物。"
+        },
+        "Animal:cat": {
+            "search_key": "Animal,动物,cat,猫🐈",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "cat",
+            "sub_zh": "猫🐈",
+            "sub_desc": "任何小型猫科动物。"
+        },
+        "Animal:cow": {
+            "search_key": "Animal,动物,cow,牛🐄",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "cow",
+            "sub_zh": "牛🐄",
+            "sub_desc": "任何雌性牛科动物。"
+        },
+        "Animal:crab": {
+            "search_key": "Animal,动物,crab,螃蟹🦀",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "crab",
+            "sub_zh": "螃蟹🦀",
+            "sub_desc": "任何有壳的甲壳动物。"
+        },
+        "Animal:deer": {
+            "search_key": "Animal,动物,deer,鹿🦌",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "deer",
+            "sub_zh": "鹿🦌",
+            "sub_desc": "任何类型的鹿。"
+        },
+        "Animal:dinosaur": {
+            "search_key": "Animal,动物,dinosaur,恐龙🦖",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "dinosaur",
+            "sub_zh": "恐龙🦖",
+            "sub_desc": "任何恐龙进化枝的动物。"
+        },
+        "Animal:dog": {
+            "search_key": "Animal,动物,dog,狗🐕",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "dog",
+            "sub_zh": "狗🐕",
+            "sub_desc": "任何犬属动物。"
+        },
+        "Animal:dolphin": {
+            "search_key": "Animal,动物,dolphin,海豚🐬",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "dolphin",
+            "sub_zh": "海豚🐬",
+            "sub_desc": "任何小型鲸目哺乳动物。"
+        },
+        "Animal:donkey": {
+            "search_key": "Animal,动物,donkey,驴",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "donkey",
+            "sub_zh": "驴",
+            "sub_desc": "任何驴亚属动物。"
+        },
+        "Animal:dragon": {
+            "search_key": "Animal,动物,dragon,龙🐉",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "dragon",
+            "sub_zh": "龙🐉",
+            "sub_desc": "神话中的有翼爬行动物。"
+        },
+        "Animal:eel": {
+            "search_key": "Animal,动物,eel,鳗鱼",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "eel",
+            "sub_zh": "鳗鱼",
+            "sub_desc": "任何扁平细长的鱼类。"
+        },
+        "Animal:elephant": {
+            "search_key": "Animal,动物,elephant,象🐘",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "elephant",
+            "sub_zh": "象🐘",
+            "sub_desc": "拥有四条粗蹄和象牙的大型哺乳动物。"
+        },
+        "Animal:fish": {
+            "search_key": "Animal,动物,fish,鱼🐟",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "fish",
+            "sub_zh": "鱼🐟",
+            "sub_desc": "任何非细长的水生无肢动物。"
+        },
+        "Animal:fox": {
+            "search_key": "Animal,动物,fox,狐狸🦊",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "fox",
+            "sub_zh": "狐狸🦊",
+            "sub_desc": "任何犬科动物。"
+        },
+        "Animal:frog": {
+            "search_key": "Animal,动物,frog,青蛙🐸",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "frog",
+            "sub_zh": "青蛙🐸",
+            "sub_desc": "任何无尾目动物。"
+        },
+        "Animal:goat": {
+            "search_key": "Animal,动物,goat,山羊🐐",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "goat",
+            "sub_zh": "山羊🐐",
+            "sub_desc": "任何山羊属动物。"
+        },
+        "Animal:gorilla": {
+            "search_key": "Animal,动物,gorilla,猩猩🦍",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "gorilla",
+            "sub_zh": "猩猩🦍",
+            "sub_desc": "任何大型灵长目动物。"
+        },
+        "Animal:horse": {
+            "search_key": "Animal,动物,horse,马🐎",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "horse",
+            "sub_zh": "马🐎",
+            "sub_desc": "任何无条纹的马属动物。"
+        },
+        "Animal:insect": {
+            "search_key": "Animal,动物,insect,昆虫🐜",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "insect",
+            "sub_zh": "昆虫🐜",
+            "sub_desc": "任何陆生无脊椎动物。"
+        },
+        "Animal:kangaroo": {
+            "search_key": "Animal,动物,kangaroo,袋鼠",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "kangaroo",
+            "sub_zh": "袋鼠",
+            "sub_desc": "任何有袋类动物。"
+        },
+        "Animal:lion": {
+            "search_key": "Animal,动物,lion,狮🦁",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "lion",
+            "sub_zh": "狮🦁",
+            "sub_desc": "任何有蓬松鬃毛的雄性豹属动物。"
+        },
+        "Animal:lioness": {
+            "search_key": "Animal,动物,lioness,狮🦁",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "lioness",
+            "sub_zh": "狮🦁",
+            "sub_desc": "任何雌性豹属动物。"
+        },
+        "Animal:maggot": {
+            "search_key": "Animal,动物,maggot,蛆🐛",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "maggot",
+            "sub_zh": "蛆🐛",
+            "sub_desc": "任何幼体（两栖类、昆虫、刺丝胞动物在变态为蛹或成体之前的状态）动物。"
+        },
+        "Animal:monkey": {
+            "search_key": "Animal,动物,monkey,猴🐒",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "monkey",
+            "sub_zh": "猴🐒",
+            "sub_desc": "任何小型灵长目动物。"
+        },
+        "Animal:mouse": {
+            "search_key": "Animal,动物,mouse,鼠🐀",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "mouse",
+            "sub_zh": "鼠🐀",
+            "sub_desc": "任何啮齿目动物。"
+        },
+        "Animal:octopus": {
+            "search_key": "Animal,动物,octopus,章鱼🐙",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "octopus",
+            "sub_zh": "章鱼🐙",
+            "sub_desc": "任何头足纲动物。"
+        },
+        "Animal:ostrich": {
+            "search_key": "Animal,动物,ostrich,鸵鸟",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "ostrich",
+            "sub_zh": "鸵鸟",
+            "sub_desc": "任何长颈无飞行能力的鸟纲动物。"
+        },
+        "Animal:panther": {
+            "search_key": "Animal,动物,panther,豹🐆",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "panther",
+            "sub_zh": "豹🐆",
+            "sub_desc": "任何美洲狮(Puma concolor)、猎豹(Acinonyx jubatus)或豹(Panthera pardus)。"
+        },
+        "Animal:pegasus": {
+            "search_key": "Animal,动物,pegasus,天马",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "pegasus",
+            "sub_zh": "天马",
+            "sub_desc": "神话中带翅膀的马或独角兽。\n不应与马🐎(horse)或独角兽🦄(unicorn)混淆。不应该被标记在毛茸茸(furry)的角色上。"
+        },
+        "Animal:pig": {
+            "search_key": "Animal,动物,pig,猪🐖",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "pig",
+            "sub_zh": "猪🐖",
+            "sub_desc": "任何猪属动物。"
+        },
+        "Animal:rabbit": {
+            "search_key": "Animal,动物,rabbit,兔🐇",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "rabbit",
+            "sub_zh": "兔🐇",
+            "sub_desc": "任何兔科动物。"
+        },
+        "Animal:reptile": {
+            "search_key": "Animal,动物,reptile,爬虫",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "reptile",
+            "sub_zh": "爬虫",
+            "sub_desc": "任何爬行动物。"
+        },
+        "Animal:rhinoceros": {
+            "search_key": "Animal,动物,rhinoceros,犀牛🦏",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "rhinoceros",
+            "sub_zh": "犀牛🦏",
+            "sub_desc": "任何有角的有蹄类动物。"
+        },
+        "Animal:shark": {
+            "search_key": "Animal,动物,shark,鲨🦈",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "shark",
+            "sub_zh": "鲨🦈",
+            "sub_desc": "任何有软骨骨骼的鱼类。"
+        },
+        "Animal:sheep": {
+            "search_key": "Animal,动物,sheep,绵羊🐏",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "sheep",
+            "sub_zh": "绵羊🐏",
+            "sub_desc": "任何绵羊(Ovis aries)。"
+        },
+        "Animal:slug": {
+            "search_key": "Animal,动物,slug,蛞蝓",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "slug",
+            "sub_zh": "蛞蝓",
+            "sub_desc": "任何腹足软体动物，包括有甲壳的。"
+        },
+        "Animal:snake": {
+            "search_key": "Animal,动物,snake,蛇🐍",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "snake",
+            "sub_zh": "蛇🐍",
+            "sub_desc": "任何蛇亚目动物。"
+        },
+        "Animal:spider": {
+            "search_key": "Animal,动物,spider,蜘蛛🕷",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "spider",
+            "sub_zh": "蜘蛛🕷",
+            "sub_desc": "任何蛛形纲动物。"
+        },
+        "Animal:tiger": {
+            "search_key": "Animal,动物,tiger,虎🐅",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "tiger",
+            "sub_zh": "虎🐅",
+            "sub_desc": "任何虎种动物。"
+        },
+        "Animal:turtle": {
+            "search_key": "Animal,动物,turtle,龟🐢",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "turtle",
+            "sub_zh": "龟🐢",
+            "sub_desc": "任何龟鳖目动物。"
+        },
+        "Animal:unicorn": {
+            "search_key": "Animal,动物,unicorn,独角兽",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "unicorn",
+            "sub_zh": "独角兽",
+            "sub_desc": "英国皇家海军独角兽号航母（HMS Unicorn(I72)）"
+        },
+        "Animal:whale": {
+            "search_key": "Animal,动物,whale,鲸🐋",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "whale",
+            "sub_zh": "鲸🐋",
+            "sub_desc": "任何鲸下目动物。"
+        },
+        "Animal:wolf": {
+            "search_key": "Animal,动物,wolf,狼🐺",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "wolf",
+            "sub_zh": "狼🐺",
+            "sub_desc": "任何灰狼种动物。"
+        },
+        "Animal:worm": {
+            "search_key": "Animal,动物,worm,蠕虫",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "worm",
+            "sub_zh": "蠕虫",
+            "sub_desc": "任何有管状身体且无腿的动物。"
+        },
+        "Animal:zebra": {
+            "search_key": "Animal,动物,zebra,斑马🦓",
+            "parent_en": "Animal",
+            "parent_zh": "动物",
+            "sub_en": "zebra",
+            "sub_zh": "斑马🦓",
+            "sub_desc": "任何有条纹的马属动物。"
         },
         "Costume:animegao": {
             "search_key": "Costume,戏服,animegao,头壳",
@@ -4781,6 +4910,22 @@
             "sub_en": "randoseru",
             "sub_zh": "书包",
             "sub_desc": "由皮革或皮革般的合成材料制成的背包，常用于小学生。"
+        },
+        "Costume:rhinoceros boy": {
+            "search_key": "Costume,戏服,rhinoceros boy,犀牛男孩",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "rhinoceros boy",
+            "sub_zh": "犀牛男孩",
+            "sub_desc": "犀牛女孩(rhinoceros girl)的男性版本。"
+        },
+        "Costume:rhinoceros girl": {
+            "search_key": "Costume,戏服,rhinoceros girl,犀牛女孩",
+            "parent_en": "Costume",
+            "parent_zh": "戏服",
+            "sub_en": "rhinoceros girl",
+            "sub_zh": "犀牛女孩",
+            "sub_desc": "拥有犀牛特征的女性角色，例如鼻子上有一个或多个角、漏斗状的耳朵，以及尾部末端有毛簇的尾巴等。"
         },
         "Costume:sarashi": {
             "search_key": "Costume,戏服,sarashi,缠胸布",
@@ -5798,6 +5943,14 @@
             "sub_zh": "人类饲养",
             "sub_desc": "人类作为牲畜饲养，通常用于挤奶(milking)或繁殖。 通常涉及束缚(bondage)。"
         },
+        "Sadomasochism:ruined orgasm": {
+            "search_key": "Sadomasochism,施虐受虐,ruined orgasm,高潮泡汤",
+            "parent_en": "Sadomasochism",
+            "parent_zh": "施虐受虐",
+            "sub_en": "ruined orgasm",
+            "sub_zh": "高潮泡汤",
+            "sub_desc": "在参与者达到高潮之前停止刺激。然后参与者必须达到高潮，通常质量和强度低于平时，而无需任何进一步的刺激。存在从刺激开始到毁掉的高潮发生时计算。不要与高潮禁止(orgasm denial)相混淆。"
+        },
         "Sadomasochism:property tag": {
             "search_key": "Sadomasochism,施虐受虐,property tag,所有标签",
             "parent_en": "Sadomasochism",
@@ -6486,6 +6639,22 @@
             "sub_zh": "破处",
             "sub_desc": "女性失去了处女的过程。经常包括轻微出血。不应该与丧失童贞(virginity)标签混淆，因为此标签只用于男性。需要有足够的证据支持。"
         },
+        "Contextual:dickgirls only": {
+            "search_key": "Contextual,上下文,dickgirls only,纯扶她",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "dickgirls only",
+            "sub_zh": "纯扶她",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为扶她。要求至少两个扶她进行交互。"
+        },
+        "Contextual:females only": {
+            "search_key": "Contextual,上下文,females only,纯女性⚢",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "females only",
+            "sub_zh": "纯女性⚢",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
+        },
         "Contextual:impregnation": {
             "search_key": "Contextual,上下文,impregnation,受孕",
             "parent_en": "Contextual",
@@ -6502,6 +6671,46 @@
             "sub_zh": "小鬼",
             "sub_desc": "メスガキ，表现出傲慢、专横和诱惑的孩子，通常对地位较高的人，无论是年龄还是地位。通常，角色会嘲笑/侮辱/贬低其他角色的反应。需要萝莉(lolicon)或正太(shotacon)标签。"
         },
+        "Contextual:no penetration": {
+            "search_key": "Contextual,上下文,no penetration,无插入",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "no penetration",
+            "sub_zh": "无插入",
+            "sub_desc": "没有任何东西插入阴道，肛门或任何其他身体开口。嘴是唯一的例外。不用于无H(non-h)画廊和仅裸体(nudity only)画廊。"
+        },
+        "Contextual:nudity only": {
+            "search_key": "Contextual,上下文,nudity only,仅裸体",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "nudity only",
+            "sub_zh": "仅裸体",
+            "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
+        },
+        "Contextual:object insertion only": {
+            "search_key": "Contextual,上下文,object insertion only,仅物体插入",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "object insertion only",
+            "sub_zh": "仅物体插入",
+            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
+        },
+        "Contextual:kodomo only": {
+            "search_key": "Contextual,上下文,kodomo only,仅儿童",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "kodomo only",
+            "sub_zh": "仅儿童",
+            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
+        },
+        "Contextual:males only": {
+            "search_key": "Contextual,上下文,males only,纯男性⚣",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "males only",
+            "sub_zh": "纯男性⚣",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为男性。要求至少两个男性进行交互。人妖♀(cuntboy)不算在内。"
+        },
         "Contextual:oyakodon": {
             "search_key": "Contextual,上下文,oyakodon,父子丼",
             "parent_en": "Contextual",
@@ -6517,6 +6726,46 @@
             "sub_en": "prostitution",
             "sub_zh": "卖淫",
             "sub_desc": "以性换钱的行为。通常包括以某种挑逗的方式穿衣。"
+        },
+        "Contextual:pussyboys only": {
+            "search_key": "Contextual,上下文,pussyboys only,仅限猫咪男孩",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "pussyboys only",
+            "sub_zh": "仅限猫咪男孩",
+            "sub_desc": "画廊中的所有性、恋物或亲密互动都严格在 屄男孩（有阴道无阴茎） 之间进行（即屄男孩（有阴道无阴茎）或屌屄男孩（有阴道有阴茎））。需要至少两个 屄男孩 互动。"
+        },
+        "Contextual:sole dickgirl": {
+            "search_key": "Contextual,上下文,sole dickgirl,单扶她",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole dickgirl",
+            "sub_zh": "单扶她",
+            "sub_desc": "只有一个扶她(futanari)或人妖♂(shemale)参与了整个画廊的所有性爱或恋物癖活动。"
+        },
+        "Contextual:sole female": {
+            "search_key": "Contextual,上下文,sole female,单女主",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole female",
+            "sub_zh": "单女主",
+            "sub_desc": "只有一个女性参与了整个画廊的所有性爱或恋物癖活动。扶她(futanari)或人妖♂(shemale)不算在内。"
+        },
+        "Contextual:sole male": {
+            "search_key": "Contextual,上下文,sole male,单男主",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole male",
+            "sub_zh": "单男主",
+            "sub_desc": "只有一个男性参与了整个画廊的所有性爱或恋物癖活动。人妖♀(cuntboy)不算在内。"
+        },
+        "Contextual:sole pussyboy": {
+            "search_key": "Contextual,上下文,sole pussyboy,单扶他",
+            "parent_en": "Contextual",
+            "parent_zh": "上下文",
+            "sub_en": "sole pussyboy",
+            "sub_zh": "单扶他",
+            "sub_desc": "只有一个人妖♀(cuntboy)或扶他(otokofutanari)参与整个画廊的任何性或恋物活动（但不一定在所有活动中）。\n不应与自摸(solo action)混淆。"
         },
         "Contextual:shimaidon": {
             "search_key": "Contextual,上下文,shimaidon,兄弟丼",
@@ -6597,102 +6846,6 @@
             "sub_en": "yandere",
             "sub_zh": "病娇",
             "sub_desc": "动机来自于强迫的爱的精神病的行为。包括骚扰或劫持感兴趣的人；恐吓或伤害感知到的对手。如果有任何性活动，此人必须直接参与其中。"
-        },
-        "Gallery-Wide:dickgirls only": {
-            "search_key": "Gallery-Wide,画廊范围,dickgirls only,纯扶她",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "dickgirls only",
-            "sub_zh": "纯扶她",
-            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为扶她。要求至少两个扶她进行交互。"
-        },
-        "Gallery-Wide:females only": {
-            "search_key": "Gallery-Wide,画廊范围,females only,纯女性⚢",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "females only",
-            "sub_zh": "纯女性⚢",
-            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
-        },
-        "Gallery-Wide:kodomo only": {
-            "search_key": "Gallery-Wide,画廊范围,kodomo only,仅儿童",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "kodomo only",
-            "sub_zh": "仅儿童",
-            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
-        },
-        "Gallery-Wide:males only": {
-            "search_key": "Gallery-Wide,画廊范围,males only,纯男性⚣",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "males only",
-            "sub_zh": "纯男性⚣",
-            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为男性。要求至少两个男性进行交互。人妖♀(cuntboy)不算在内。"
-        },
-        "Gallery-Wide:no penetration": {
-            "search_key": "Gallery-Wide,画廊范围,no penetration,无插入",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "no penetration",
-            "sub_zh": "无插入",
-            "sub_desc": "没有任何东西插入阴道，肛门或任何其他身体开口。嘴是唯一的例外。不用于无H(non-h)画廊和仅裸体(nudity only)画廊。"
-        },
-        "Gallery-Wide:nudity only": {
-            "search_key": "Gallery-Wide,画廊范围,nudity only,仅裸体",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "nudity only",
-            "sub_zh": "仅裸体",
-            "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
-        },
-        "Gallery-Wide:object insertion only": {
-            "search_key": "Gallery-Wide,画廊范围,object insertion only,仅物体插入",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "object insertion only",
-            "sub_zh": "仅物体插入",
-            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
-        },
-        "Gallery-Wide:pussyboys only": {
-            "search_key": "Gallery-Wide,画廊范围,pussyboys only,仅限猫咪男孩",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "pussyboys only",
-            "sub_zh": "仅限猫咪男孩",
-            "sub_desc": "画廊中的所有性、恋物或亲密互动都严格在 屄男孩（有阴道无阴茎） 之间进行（即屄男孩（有阴道无阴茎）或屌屄男孩（有阴道有阴茎））。需要至少两个 屄男孩 互动。"
-        },
-        "Gallery-Wide:sole dickgirl": {
-            "search_key": "Gallery-Wide,画廊范围,sole dickgirl,单扶她",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole dickgirl",
-            "sub_zh": "单扶她",
-            "sub_desc": "只有一个扶她(futanari)或人妖♂(shemale)参与了整个画廊的所有性爱或恋物癖活动。"
-        },
-        "Gallery-Wide:sole female": {
-            "search_key": "Gallery-Wide,画廊范围,sole female,单女主",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole female",
-            "sub_zh": "单女主",
-            "sub_desc": "只有一个女性参与了整个画廊的所有性爱或恋物癖活动。扶她(futanari)或人妖♂(shemale)不算在内。"
-        },
-        "Gallery-Wide:sole male": {
-            "search_key": "Gallery-Wide,画廊范围,sole male,单男主",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole male",
-            "sub_zh": "单男主",
-            "sub_desc": "只有一个男性参与了整个画廊的所有性爱或恋物癖活动。人妖♀(cuntboy)不算在内。"
-        },
-        "Gallery-Wide:sole pussyboy": {
-            "search_key": "Gallery-Wide,画廊范围,sole pussyboy,单扶他",
-            "parent_en": "Gallery-Wide",
-            "parent_zh": "画廊范围",
-            "sub_en": "sole pussyboy",
-            "sub_zh": "单扶他",
-            "sub_desc": "只有一个人妖♀(cuntboy)或扶他(otokofutanari)参与整个画廊的任何性或恋物活动（但不一定在所有活动中）。\n不应与自摸(solo action)混淆。"
         },
         "Infidelity:cheating": {
             "search_key": "Infidelity,不忠,cheating,出轨",
@@ -6838,6 +6991,22 @@
             "sub_zh": "叔叔",
             "sub_desc": "叔叔与侄子间的性行为。需要乱伦(incest)和男同(yaoi)标签。"
         },
+        "Location:onsen": {
+            "search_key": "Location,地点,onsen,温泉",
+            "parent_en": "Location",
+            "parent_zh": "地点",
+            "sub_en": "onsen",
+            "sub_zh": "温泉",
+            "sub_desc": "一个或多个参与者在温泉赤身裸体或发生性行为。必须在洗浴设施内或附近。在任何附属旅馆等内发生的性行为不计算在内。"
+        },
+        "Location:underwater": {
+            "search_key": "Location,地点,underwater,水下",
+            "parent_en": "Location",
+            "parent_zh": "地点",
+            "sub_en": "underwater",
+            "sub_zh": "水下",
+            "sub_desc": "在性期间大部分或完全浸没在液体中。"
+        },
         "Low Presence:low bestiality": {
             "search_key": "Low Presence,低存在感,low bestiality,低存在兽交",
             "parent_en": "Low Presence",
@@ -6910,6 +7079,14 @@
             "sub_zh": "高存在口交",
             "sub_desc": "画廊超过 50% 的内容为口交(blowjob)。需要口交(blowjob)标签。"
         },
+        "High Presence:focus cunnilingus": {
+            "search_key": "High Presence,高存在感,focus cunnilingus,高存在舔阴",
+            "parent_en": "High Presence",
+            "parent_zh": "高存在感",
+            "sub_en": "focus cunnilingus",
+            "sub_zh": "高存在舔阴",
+            "sub_desc": "画廊超过 50% 的内容为舔阴(cunnilingus)。需要舔阴(cunnilingus)标签。"
+        },
         "High Presence:focus paizuri": {
             "search_key": "High Presence,高存在感,focus paizuri,高存在乳交",
             "parent_en": "High Presence",
@@ -6917,6 +7094,230 @@
             "sub_en": "focus paizuri",
             "sub_zh": "高存在乳交",
             "sub_desc": "画廊超过 50% 的内容为乳交(paizuri)。需要乳交(paizuri)标签。"
+        },
+        "High Presence:focus rimjob": {
+            "search_key": "High Presence,高存在感,focus rimjob,高存在舔肛",
+            "parent_en": "High Presence",
+            "parent_zh": "高存在感",
+            "sub_en": "focus rimjob",
+            "sub_zh": "高存在舔肛",
+            "sub_desc": "画廊超过 50% 的内容为舔肛(rimjob)。需要舔肛(rimjob)标签。"
+        },
+        "Gallery-Wide:anthology": {
+            "search_key": "Gallery-Wide,画廊范围,anthology,选集",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "anthology",
+            "sub_zh": "选集",
+            "sub_desc": "多个作者共同完成的完整的书（杂志）。缺页(incomplete)的选集和画集(artbook)不算在内。"
+        },
+        "Gallery-Wide:artbook": {
+            "search_key": "Gallery-Wide,画廊范围,artbook,画集",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "artbook",
+            "sub_zh": "画集",
+            "sub_desc": "有特定标题的图像集合的出版书籍，非官方的收集图不算。不用于缺页(incomplete)的作品。"
+        },
+        "Gallery-Wide:comic": {
+            "search_key": "Gallery-Wide,画廊范围,comic,西方漫画",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "comic",
+            "sub_zh": "西方漫画",
+            "sub_desc": "一种西方色情作品，利用一系列格子来说明故事。通常包含文本气球。仅用于西方(western)作品，非色情内容不算。"
+        },
+        "Gallery-Wide:dickgirls only": {
+            "search_key": "Gallery-Wide,画廊范围,dickgirls only,纯扶她",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "dickgirls only",
+            "sub_zh": "纯扶她",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为扶她。要求至少两个扶她进行交互。"
+        },
+        "Gallery-Wide:females only": {
+            "search_key": "Gallery-Wide,画廊范围,females only,纯女性⚢",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "females only",
+            "sub_zh": "纯女性⚢",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为女性。要求至少两个女性进行交互。扶她(futanari)和人妖♂(shemale)不算在内。"
+        },
+        "Gallery-Wide:full censorship": {
+            "search_key": "Gallery-Wide,画廊范围,full censorship,完全修正",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "full censorship",
+            "sub_zh": "完全修正",
+            "sub_desc": "任何形式的完全修正（全白色或黑色），涵盖了几乎所有或个人所有的生殖器区域。同样水平的修正需要在整个画廊完整实施。不应用于无H画廊，因为对其进行修正是必须的。不应与马赛克修正(mosaic censorship)混淆。"
+        },
+        "Gallery-Wide:full color": {
+            "search_key": "Gallery-Wide,画廊范围,full color,全彩",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "full color",
+            "sub_zh": "全彩",
+            "sub_desc": "正文每一页都是彩色的。少数非故事页的非彩色图片不算在内。不用于 CG 集、图集(imageset)和3D(3d)画廊。"
+        },
+        "Gallery-Wide:kodomo only": {
+            "search_key": "Gallery-Wide,画廊范围,kodomo only,仅儿童",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "kodomo only",
+            "sub_zh": "仅儿童",
+            "sub_desc": "整个图库中所有的性、恋物或亲密互动都仅限于儿童之间。需要至少两个孩子互相互动。需要正太(shotacon)或萝莉(lolicon)标签。"
+        },
+        "Gallery-Wide:males only": {
+            "search_key": "Gallery-Wide,画廊范围,males only,纯男性⚣",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "males only",
+            "sub_zh": "纯男性⚣",
+            "sub_desc": "在画廊中的所有性行为、迷恋或亲密的性交互之间都严格限定为男性。要求至少两个男性进行交互。人妖♀(cuntboy)不算在内。"
+        },
+        "Gallery-Wide:mosaic censorship": {
+            "search_key": "Gallery-Wide,画廊范围,mosaic censorship,马赛克修正",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "mosaic censorship",
+            "sub_zh": "马赛克修正",
+            "sub_desc": "任何形式的马赛克修正，涵盖了几乎所有或个人所有的生殖器区域。同样水平的修正需要在整个画廊完整实施。不应用于无H画廊，因为对其进行修正是必须的。不应与完全修正(full censorship)混淆。"
+        },
+        "Gallery-Wide:multi-work series": {
+            "search_key": "Gallery-Wide,画廊范围,multi-work series,系列作品",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "multi-work series",
+            "sub_zh": "系列作品",
+            "sub_desc": "一个完整的作品，其故事跨多册书籍或发行版。不应与故事线(story arc)混淆。"
+        },
+        "Gallery-Wide:no penetration": {
+            "search_key": "Gallery-Wide,画廊范围,no penetration,无插入",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "no penetration",
+            "sub_zh": "无插入",
+            "sub_desc": "没有任何东西插入阴道，肛门或任何其他身体开口。嘴是唯一的例外。不用于无H(non-h)画廊和仅裸体(nudity only)画廊。"
+        },
+        "Gallery-Wide:non-nude": {
+            "search_key": "Gallery-Wide,画廊范围,non-nude,无露点",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "non-nude",
+            "sub_zh": "无露点",
+            "sub_desc": "没有展示乳头或性器的画廊。仅用于 Cosplay 画廊。"
+        },
+        "Gallery-Wide:nudity only": {
+            "search_key": "Gallery-Wide,画廊范围,nudity only,仅裸体",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "nudity only",
+            "sub_zh": "仅裸体",
+            "sub_desc": "整个画廊中没有性行为，但有裸体图片。"
+        },
+        "Gallery-Wide:object insertion only": {
+            "search_key": "Gallery-Wide,画廊范围,object insertion only,仅物体插入",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "object insertion only",
+            "sub_zh": "仅物体插入",
+            "sub_desc": "所有插入阴道、肛门、口腔或任何其他身体开口的行为都严格通过无生命物体（在任何时候）进行，例如性玩具(sex toys)或肛塞。任何通过身体部位（例如阴茎、手指、脚或触手）插入身体开口的行为都会使标签失效。不应在无插入(no penetration)画廊上标记。"
+        },
+        "Gallery-Wide:pussyboys only": {
+            "search_key": "Gallery-Wide,画廊范围,pussyboys only,仅限猫咪男孩",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "pussyboys only",
+            "sub_zh": "仅限猫咪男孩",
+            "sub_desc": "画廊中的所有性、恋物或亲密互动都严格在 屄男孩（有阴道无阴茎） 之间进行（即屄男孩（有阴道无阴茎）或屌屄男孩（有阴道有阴茎））。需要至少两个 屄男孩 互动。"
+        },
+        "Gallery-Wide:sample": {
+            "search_key": "Gallery-Wide,画廊范围,sample,样本",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sample",
+            "sub_zh": "样本",
+            "sub_desc": "完整作品的免费分发样品。表明该画廊可以由一个更完整的版本替换（除非是位于 DNP 列表的作品）。"
+        },
+        "Gallery-Wide:sole dickgirl": {
+            "search_key": "Gallery-Wide,画廊范围,sole dickgirl,单扶她",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole dickgirl",
+            "sub_zh": "单扶她",
+            "sub_desc": "只有一个扶她(futanari)或人妖♂(shemale)参与了整个画廊的所有性爱或恋物癖活动。"
+        },
+        "Gallery-Wide:sole female": {
+            "search_key": "Gallery-Wide,画廊范围,sole female,单女主",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole female",
+            "sub_zh": "单女主",
+            "sub_desc": "只有一个女性参与了整个画廊的所有性爱或恋物癖活动。扶她(futanari)或人妖♂(shemale)不算在内。"
+        },
+        "Gallery-Wide:sole male": {
+            "search_key": "Gallery-Wide,画廊范围,sole male,单男主",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole male",
+            "sub_zh": "单男主",
+            "sub_desc": "只有一个男性参与了整个画廊的所有性爱或恋物癖活动。人妖♀(cuntboy)不算在内。"
+        },
+        "Gallery-Wide:sole pussyboy": {
+            "search_key": "Gallery-Wide,画廊范围,sole pussyboy,单扶他",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "sole pussyboy",
+            "sub_zh": "单扶他",
+            "sub_desc": "只有一个人妖♀(cuntboy)或扶他(otokofutanari)参与整个画廊的任何性或恋物活动（但不一定在所有活动中）。\n不应与自摸(solo action)混淆。"
+        },
+        "Gallery-Wide:story arc": {
+            "search_key": "Gallery-Wide,画廊范围,story arc,故事线",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "story arc",
+            "sub_zh": "故事线",
+            "sub_desc": "在单个画廊中的多个章节讲述同一个故事。需要至少 75 页或 4 章。 对于单行本(tankoubon)，50% 的内容需要符合条件。不应与系列作品(multi-work series)混淆。"
+        },
+        "Gallery-Wide:tankoubon": {
+            "search_key": "Gallery-Wide,画廊范围,tankoubon,单行本",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "tankoubon",
+            "sub_zh": "单行本",
+            "sub_desc": "单行本，源于日本，是指丛书的其中一本。常见于日本漫画或轻小说，即是合辑成书。例如轻小说于各媒体连载后，把内容从连载的刊物重印成为一本独立以一个作品为题材的书籍。一般漫画单行本由 6 至 10 回集结而成。"
+        },
+        "Gallery-Wide:themeless": {
+            "search_key": "Gallery-Wide,画廊范围,themeless,无主题",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "themeless",
+            "sub_zh": "无主题",
+            "sub_desc": "没有特定主题或关注点的画廊。"
+        },
+        "Gallery-Wide:uncensored": {
+            "search_key": "Gallery-Wide,画廊范围,uncensored,无修正",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "uncensored",
+            "sub_zh": "无修正",
+            "sub_desc": "发表时就无码或之后消码，画廊没有任何修正点。不应使用于西方(western)分类的画廊。"
+        },
+        "Gallery-Wide:variant set": {
+            "search_key": "Gallery-Wide,画廊范围,variant set,变体集",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "variant set",
+            "sub_zh": "变体集",
+            "sub_desc": "从静态角度仅描绘单一场景的画廊。"
+        },
+        "Gallery-Wide:western cg": {
+            "search_key": "Gallery-Wide,画廊范围,western cg,西方CG",
+            "parent_en": "Gallery-Wide",
+            "parent_zh": "画廊范围",
+            "sub_en": "western cg",
+            "sub_zh": "西方CG",
+            "sub_desc": "用于西方(western)分类的画师CG(artistcg)或游戏CG(gamecg)。不包含3D(3d)作品。仅适用于西方(western)分类。类别标签候选。"
         },
         "Technical:3d": {
             "search_key": "Technical,技术,3d,3D",
@@ -7053,6 +7454,14 @@
             "sub_en": "non-h imageset",
             "sub_zh": "无H图片集",
             "sub_desc": "绘制的非色情内容，不构成漫画或漫画集（即松散的图像，屏幕截图等）。 这样的画廊中的图像最好具有单一主题（例如，单一的艺术家，系列，人物或恋物癖）。只用于无H(non-h)分类。"
+        },
+        "Technical:original": {
+            "search_key": "Technical,技术,original,原创",
+            "parent_en": "Technical",
+            "parent_zh": "技术",
+            "sub_en": "original",
+            "sub_zh": "原创",
+            "sub_desc": "适用于不包含任何已知媒体/系列中角色或内容的同人志(doujinshi)或画师CG(artistcg)。此标签不得用于同人志(doujinshi)或画师CG(artistcg)类别之外。"
         },
         "Technical:paperchild": {
             "search_key": "Technical,技术,paperchild,纸片人",
